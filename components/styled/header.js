@@ -35,7 +35,7 @@ export const HeaderTitleItem = styled.li`
   user-select: none;
   cursor: pointer;
   :hover {
-    color: #4caf50;
+    color: #04b4e0;
   }
   ::before {
     position: absolute;
@@ -64,7 +64,7 @@ export const HeaderTitleItem = styled.li`
   :hover::after,
   :focus::before,
   :hover::before {
-    background-color: #4caf50;
+    background-color: #04b4e0;
     width: 100%;
     height: 2px;
     outline: 0;

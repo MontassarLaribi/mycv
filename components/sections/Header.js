@@ -1,12 +1,5 @@
 import LanguageToggle from "../single/languageToggle";
-import {
-  HeaderTitleItem,
-  HeaderTitles,
-  HeaderWrapper,
-  ToggleInput,
-  ToggleSpan,
-  ToggleWrapper,
-} from "../styled/header";
+import { HeaderTitleItem, HeaderTitles, HeaderWrapper } from "../styled/header";
 
 export default function Header() {
   return (

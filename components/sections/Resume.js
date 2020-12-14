@@ -31,7 +31,7 @@ const Resume = ({ t }) => {
       <ResumeTitle>{t("aboutMe")}</ResumeTitle>
       <ResumeDescription>
         {t("myNameIs")}{" "}
-        <ThemeColoredTextSecondary>{t("name")}</ThemeColoredTextSecondary>
+        <ThemeColoredTextSecondary>{t("name")} </ThemeColoredTextSecondary>
         {t("Im")}
         <FlipWrapper>
           <FlipText>

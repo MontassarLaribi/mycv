@@ -75,7 +75,7 @@ export const ProfileImageWrapper = styled.div`
     bottom: -10px !important;
     left: 15px !important;
     right: -15px !important;
-    border: 4px solid #4caf50;
+    border: 4px solid #04b4e0;
     border-radius: 10px;
     content: "";
     max-width: 250px;
@@ -94,7 +94,7 @@ export const ProfileImage = styled.img`
 `;
 
 export const ResumeTitle = styled.h2`
-  color: #4caf50;
+  color: #04b4e0;
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
@@ -120,7 +120,7 @@ export const ResumeDescription = styled.p`
 `;
 
 export const ThemeColoredText = styled.span`
-  color: #4caf50;
+  color: #04b4e0;
 `;
 export const ThemeColoredTextSecondary = styled.span`
   color: #ff9800;
@@ -143,7 +143,7 @@ export const ResumeListItem = styled.li`
   }
 `;
 export const IcoFontIcon = styled.i`
-  color: #4caf50;
+  color: #04b4e0;
   font-size: 25px;
 `;
 export const DownloadButton = styled.button`
