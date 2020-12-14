@@ -31,37 +31,32 @@ const Resume = ({ t }) => {
       <ResumeTitle>{t("aboutMe")}</ResumeTitle>
       <ResumeDescription>
         {t("myNameIs")}{" "}
-        <ThemeColoredTextSecondary>{t("name")}</ThemeColoredTextSecondary> and
-        I'm a
+        <ThemeColoredTextSecondary>{t("name")}</ThemeColoredTextSecondary>
+        {t("Im")}
         <FlipWrapper>
           <FlipText>
             <li>
-              <ThemeColoredText>Full-Stack Developer</ThemeColoredText>
+              <ThemeColoredText>{t("fullstackengineer")}</ThemeColoredText>
             </li>
             <li>
-              <ThemeColoredText>University Professor</ThemeColoredText>
+              <ThemeColoredText>{t("professor")}</ThemeColoredText>
             </li>
           </FlipText>
         </FlipWrapper>{" "}
-        I have 2+ years of experience in designing, developing, testing and
-        deployed web apps from scratch. Proven ability in optimizing web
-        performance and implementing SSR solutions out of the box. And also 1
-        year of experience as a university professor where I mainly hundle teams
-        of futur engineers in their most important university projects. As well
-        as teach basic and advanced web technologies.
+        {t("bioDescription")}
       </ResumeDescription>
-      <DownloadButton>Download My CV</DownloadButton>
+      <DownloadButton>{t("downloadCV")}</DownloadButton>
       <ResumeList>
         <ResumeListItem>
           <IcoFontIcon className="icofont-linkedin"></IcoFontIcon>{" "}
           <BoldText>LinkedIn:</BoldText>{" "}
           <Link href="https://www.linkedin.com/in/montassar-laribi/">
-            My Profile
+            {t("myProfile")}
           </Link>
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-certificate-alt-1"></IcoFontIcon>{" "}
-          <BoldText>Degree:</BoldText> Engineering Degree
+          <BoldText>{t("degree")}:</BoldText> {t("degreeDescription")}
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-email"></IcoFontIcon>{" "}
@@ -72,7 +67,7 @@ const Resume = ({ t }) => {
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-phone"></IcoFontIcon>{" "}
-          <BoldText>Phone:</BoldText> +33 xxx xxxxx xx
+          <BoldText>{t("phone")}:</BoldText> +33 xxx xxxxx xx
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-brand-whatsapp"></IcoFontIcon>{" "}
@@ -80,7 +75,7 @@ const Resume = ({ t }) => {
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-ui-calendar"></IcoFontIcon>{" "}
-          <BoldText>Birthdate:</BoldText> 24/11/1995
+          <BoldText>{t("birthdate")}:</BoldText> 24/11/1995
         </ResumeListItem>
       </ResumeList>
     </ResumeSection>
