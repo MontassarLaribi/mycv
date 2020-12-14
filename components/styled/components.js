@@ -112,7 +112,7 @@ export const ResumeSubTitle = styled.h3`
 
 export const ResumeDescription = styled.p`
   margin: 10px 25px;
-  color: white;
+  color: #bdbdbd;
   text-align: justify;
   @media only screen and (max-width: 1024px) {
     text-align: center;
@@ -127,12 +127,13 @@ export const ThemeColoredTextSecondary = styled.span`
 `;
 
 export const BoldText = styled.span`
+  color: white;
   font-weight: 600;
 `;
 
 export const ResumeList = styled.ul`
   list-style: none;
-  color: white;
+  color: #bdbdbd;
   margin: 10px 25px;
   padding: 0;
 `;
@@ -150,7 +151,7 @@ export const DownloadButton = styled.button`
   max-width: 200px;
   text-transform: uppercase;
   color: white;
-  background-color: #ff9800;
+  background-color: #04b4e0;
   border: 0;
   border-radius: 5px;
   padding: 10px;

@@ -27,8 +27,6 @@ const Resume = ({ t }) => {
           <ProfileImage src="/images/montassar_laribi.png"></ProfileImage>
         </ProfileImageDiv>
       </ProfileImageWrapper>
-      <ResumeSubTitle>{t("biography")}</ResumeSubTitle>
-      <ResumeTitle>{t("aboutMe")}</ResumeTitle>
       <ResumeDescription>
         {t("myNameIs")}{" "}
         <ThemeColoredTextSecondary>{t("name")} </ThemeColoredTextSecondary>
@@ -42,8 +40,7 @@ const Resume = ({ t }) => {
               <ThemeColoredText>{t("professor")}</ThemeColoredText>
             </li>
           </FlipText>
-        </FlipWrapper>{" "}
-        {t("bioDescription")}
+        </FlipWrapper>
       </ResumeDescription>
       <DownloadButton>{t("downloadCV")}</DownloadButton>
       <ResumeList>
