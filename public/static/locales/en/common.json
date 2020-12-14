@@ -13,5 +13,7 @@
   "degree": "Degree",
   "degreeDescription": "Engineering Degree (BAC +6)",
   "phone": "Phone",
-  "birthdate": "Birthdate"
+  "birthdate": "Birthdate",
+  "technologies": "Technologies",
+  "technologiesIUse": "Technologies I mainly use :"
 }

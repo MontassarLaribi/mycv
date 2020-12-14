@@ -8,6 +8,8 @@ import {
   BodySectionContainer,
   BodySectionColumn,
   BodySectionFlex,
+  SkillsList,
+  SkillsListItem,
 } from "../styled/body";
 import { ResumeDescription } from "../styled/components";
 
@@ -29,10 +31,25 @@ const About = ({ t }) => {
         <BodySectionColumn>
           <BodyTitlesContainer>
             <TitleContainerPrimary>
-              <BodyTitle>{t("aboutMe")}</BodyTitle>
+              <BodyTitle>{t("technologies")}</BodyTitle>
             </TitleContainerPrimary>
           </BodyTitlesContainer>
-          <ResumeDescription>{t("bioDescription")}</ResumeDescription>
+          <ResumeDescription>{t("technologiesIUse")}</ResumeDescription>
+          <SkillsList>
+            <SkillsListItem>React.JS (CRA/NextJS)</SkillsListItem>
+            <SkillsListItem>Node.JS</SkillsListItem>
+            <SkillsListItem>MongoDB</SkillsListItem>
+            <SkillsListItem>Jenkins</SkillsListItem>
+            <SkillsListItem>Git</SkillsListItem>
+            <SkillsListItem>SSR</SkillsListItem>
+            <SkillsListItem>Puppeteer</SkillsListItem>
+            <SkillsListItem>SCSS/SASS</SkillsListItem>
+            <SkillsListItem>JavaScript</SkillsListItem>
+            <SkillsListItem>TypeScript</SkillsListItem>
+            <SkillsListItem>CI/CD</SkillsListItem>
+            <SkillsListItem>SQL</SkillsListItem>
+            <SkillsListItem>Symfony</SkillsListItem>
+          </SkillsList>
         </BodySectionColumn>
       </BodySectionFlex>
     </BodySectionContainer>

@@ -104,8 +104,29 @@ export const BodyTitlesContainer = styled.div`
 export const BodySectionContainer = styled.div`
   margin-left: 20px;
 `;
-export const BodySectionColumn = styled.div``;
+export const BodySectionColumn = styled.div`
+  width: 50%;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+`;
 export const BodySectionFlex = styled.div`
   display: flex;
   flex-direction: row;
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
+
+export const SkillsList = styled.ul`
+  & > li {
+    display: inline-block;
+    background-color: #04b4e0;
+    border-radius: 3px;
+    color: #fff;
+    padding: 1px 10px;
+    margin: 3px 2px;
+    font-size: 13px;
+  }
+`;
+export const SkillsListItem = styled.li``;

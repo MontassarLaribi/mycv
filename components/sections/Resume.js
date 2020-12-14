@@ -31,17 +31,17 @@ const Resume = ({ t }) => {
         {t("myNameIs")}{" "}
         <ThemeColoredTextSecondary>{t("name")} </ThemeColoredTextSecondary>
         {t("Im")}
-        <FlipWrapper>
-          <FlipText>
-            <li>
-              <ThemeColoredText>{t("fullstackengineer")}</ThemeColoredText>
-            </li>
-            <li>
-              <ThemeColoredText>{t("professor")}</ThemeColoredText>
-            </li>
-          </FlipText>
-        </FlipWrapper>
       </ResumeDescription>
+      <FlipWrapper>
+        <FlipText>
+          <li>
+            <ThemeColoredText>{t("fullstackengineer")}</ThemeColoredText>
+          </li>
+          <li>
+            <ThemeColoredText>{t("professor")}</ThemeColoredText>
+          </li>
+        </FlipText>
+      </FlipWrapper>
       <DownloadButton>{t("downloadCV")}</DownloadButton>
       <ResumeList>
         <ResumeListItem>
