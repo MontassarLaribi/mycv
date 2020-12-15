@@ -40,7 +40,9 @@ const Resume = ({ t }) => {
           </li>
         </FlipText>
       </FlipWrapper>
-      <DownloadButton>{t("downloadCV")}</DownloadButton>
+      <DownloadButton onClick={() => window.open("/cv_montassar_laribi.pdf")}>
+        {t("downloadCV")}
+      </DownloadButton>
       <ResumeList>
         <ResumeListItem>
           <IcoFontIcon className="icofont-linkedin"></IcoFontIcon>{" "}

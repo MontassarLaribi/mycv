@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   width: 100%;
-  height: 10%;
+  z-index: 9999;
+  top: 0;
+  height: 70px;
   background-color: transparent;
-  position: relative;
+  position: fixed;
   display: flex;
   background-color: #000000;
   background: linear-gradient(#000000, #2e2e2e);
@@ -12,15 +14,15 @@ export const HeaderWrapper = styled.div`
     position: fixed;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 70px;
   }
 `;
 
 export const HeaderTitles = styled.ul`
+  margin-right: auto;
   list-style: none;
   display: flex;
   flex-direction: row;
-  width: 100%;
   color: white;
 `;
 
@@ -70,6 +72,9 @@ export const HeaderTitleItem = styled.li`
     outline: 0;
     transition: all 1s ease 0s;
   }
+  @media only screen and (max-width: 1024px) {
+    font-size: small;
+  }
 `;
 export const ToggleWrapper = styled.div`
   align-self: center;
@@ -94,6 +99,16 @@ export const ToggleWrapper = styled.div`
         no-repeat center;
       background-size: cover;
       left: 38px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    &.active {
+      & > span {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACoUlEQVR42u3VvUrCYRjG4ds+REgHsQ8oIiFoao1Wz6SOoGPoJFyjzqStIWgKgia30pTGQsG3NSgI/k3ZdY0P73QPvzcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAFUfty2e+fJOmaprpOu5He8XbOz47S3WmluVY3SgVlOsv86Tlv/YvMbu9SRuOkFMNUN+g83Fx9Pqx88+g0Sc9W1U1e3zN+fc/hQccYv/md6qtZ3tvNfDhKGb4Y5Peuk/wYAOCfEAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAEwAQgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAMBfC8BlkmvTVNdpN7LebuT+cZLuTivNtbpRKijTWeZPz1na2kxtayNlNE5KMUx1AxMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALCwPgBvNzcbC0hw8gAAAABJRU5ErkJggg==")
+          no-repeat center;
+        background-size: cover;
+        left: 0;
+      }
     }
   }
 `;
@@ -122,4 +137,13 @@ export const ToggleSpan = styled.span`
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+`;
+export const MainTitle = styled.h1`
+  align-self: center;
+  margin-left: 20px;
+  font-size: medium;
+  color: #04b4e0;
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
 `;

@@ -27,6 +27,8 @@ export const MonitorWrapper = styled.div`
 `;
 
 export const ResumeSection = styled.div`
+  position: fixed;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -49,6 +51,7 @@ export const ResumeSection = styled.div`
   }
 
   @media only screen and (max-width: 1024px) {
+    position: initial;
     width: 100%;
     overflow-y: initial;
     margin-top: 100px;
@@ -56,11 +59,14 @@ export const ResumeSection = styled.div`
 `;
 
 export const DetailsSection = styled.div`
+  margin-left: 25%;
+  margin-top: 70px;
   height: 100%;
   width: 75%;
   /* background-color: rgb(255, 255, 255, 0.4); */
 
   @media only screen and (max-width: 1024px) {
+    margin-left: auto;
     width: 100%;
   }
 `;
@@ -114,9 +120,6 @@ export const ResumeDescription = styled.p`
   margin: 10px 25px;
   color: #bdbdbd;
   text-align: justify;
-  @media only screen and (max-width: 1024px) {
-    text-align: center;
-  }
 `;
 
 export const ThemeColoredText = styled.span`

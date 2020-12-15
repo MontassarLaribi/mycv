@@ -24,6 +24,17 @@ import {
   ShadowBoxContainer,
   CenterImage,
   CenterImageDiv,
+  ShadowBoxText,
+  ShadowTable,
+  ShadowTableRow,
+  ShadowTableColumn,
+  LanguageSpan,
+  TimeLineSecondary,
+  TimeLineSecondaryItem,
+  TimeLineSecondaryItemCompany,
+  TimeLineSecondaryItemDescription,
+  TimeLineSecondaryItemPeriod,
+  TimeLineSecondaryItemTitle,
 } from "../styled/body";
 import { ResumeDescription } from "../styled/components";
 
@@ -54,6 +65,33 @@ function getEducation(t) {
   }
   return items;
 }
+function getExperience(t) {
+  const items = [];
+  for (let index = 0; index < 7; index++) {
+    items.push(
+      <TimeLineItem>
+        <TimeLineLeft>
+          <TimeLineLeftTitle>
+            {t("experience.items." + index + ".school")}
+          </TimeLineLeftTitle>
+          <TimeLineLeftPeriod>
+            {t("experience.items." + index + ".period")}
+          </TimeLineLeftPeriod>
+        </TimeLineLeft>
+        <TimeLineDivider></TimeLineDivider>
+        <TimeLineRight>
+          <TimeLineRightTitle>
+            {t("experience.items." + index + ".title")}
+          </TimeLineRightTitle>
+          <TimeLineRightDescription>
+            {t("experience.items." + index + ".description")}
+          </TimeLineRightDescription>
+        </TimeLineRight>
+      </TimeLineItem>
+    );
+  }
+  return items;
+}
 
 const About = ({ t }) => {
   return (
@@ -69,6 +107,16 @@ const About = ({ t }) => {
             </TitleContainerPrimary>
           </BodyTitlesContainer>
           <ResumeDescription>{t("bioDescription")}</ResumeDescription>
+          <BodyTitlesContainer>
+            <TitleContainerPrimary>
+              <BodyTitle>{t("experience.title")}</BodyTitle>
+            </TitleContainerPrimary>
+          </BodyTitlesContainer>
+          <TimeLine>
+            {getExperience(t).map((item, index) => (
+              <Fragment key={index}>{item}</Fragment>
+            ))}
+          </TimeLine>
           <BodyTitlesContainer>
             <TitleContainerPrimary>
               <BodyTitle>{t("education.title")}</BodyTitle>
@@ -122,6 +170,126 @@ const About = ({ t }) => {
               </CenterImageDiv>
             </ShadowBox>
           </ShadowBoxContainer>
+          <BodyTitlesContainer>
+            <TitleContainerPrimary>
+              <BodyTitle>{t("certificats.title")}</BodyTitle>
+            </TitleContainerPrimary>
+          </BodyTitlesContainer>
+          <ShadowBoxContainer>
+            <ShadowBox>
+              <CenterImageDiv>
+                <CenterImage src="/images/PNL_Montassar_Laribi.png"></CenterImage>
+                <ShadowBoxText>{t("certificats.items.0")}</ShadowBoxText>
+              </CenterImageDiv>
+            </ShadowBox>
+            <ShadowBox>
+              <CenterImageDiv>
+                <CenterImage src="/images/Soft_Skills_Montassar_Laribi.png"></CenterImage>
+                <ShadowBoxText>{t("certificats.items.1")}</ShadowBoxText>
+              </CenterImageDiv>
+            </ShadowBox>
+          </ShadowBoxContainer>
+          <ShadowBoxContainer>
+            <ShadowBox>
+              <CenterImageDiv>
+                <CenterImage src="/images/TOT_Montassar_Laribi.png"></CenterImage>
+                <ShadowBoxText>{t("certificats.items.2")}</ShadowBoxText>
+              </CenterImageDiv>
+            </ShadowBox>
+            <ShadowBox>
+              <CenterImageDiv>
+                <CenterImage src="/images/MOOC_Montassar_Laribi.png"></CenterImage>
+                <ShadowBoxText>{t("certificats.items.3")}</ShadowBoxText>
+              </CenterImageDiv>
+            </ShadowBox>
+          </ShadowBoxContainer>
+          <BodyTitlesContainer>
+            <TitleContainerPrimary>
+              <BodyTitle>{t("languages.title")}</BodyTitle>
+            </TitleContainerPrimary>
+          </BodyTitlesContainer>
+          <ShadowBoxContainer>
+            <ShadowTable>
+              <tbody>
+                <ShadowTableRow>
+                  <ShadowTableColumn>
+                    <LanguageSpan>{t("languages.items.0.name")}</LanguageSpan>
+                  </ShadowTableColumn>
+                  <ShadowTableColumn>
+                    {t("languages.items.0.level")}
+                  </ShadowTableColumn>
+                </ShadowTableRow>
+                <ShadowTableRow>
+                  <ShadowTableColumn>
+                    <LanguageSpan>{t("languages.items.1.name")}</LanguageSpan>
+                  </ShadowTableColumn>
+                  <ShadowTableColumn>
+                    {t("languages.items.1.level")}
+                  </ShadowTableColumn>
+                </ShadowTableRow>
+                <ShadowTableRow>
+                  <ShadowTableColumn>
+                    <LanguageSpan>{t("languages.items.2.name")}</LanguageSpan>
+                  </ShadowTableColumn>
+                  <ShadowTableColumn>
+                    {t("languages.items.2.level")}
+                  </ShadowTableColumn>
+                </ShadowTableRow>
+                <ShadowTableRow>
+                  <ShadowTableColumn>
+                    <LanguageSpan>{t("languages.items.3.name")}</LanguageSpan>
+                  </ShadowTableColumn>
+                  <ShadowTableColumn>
+                    {t("languages.items.3.level")}
+                  </ShadowTableColumn>
+                </ShadowTableRow>
+                <ShadowTableRow>
+                  <ShadowTableColumn>
+                    <LanguageSpan>{t("languages.items.4.name")}</LanguageSpan>
+                  </ShadowTableColumn>
+                  <ShadowTableColumn>
+                    {t("languages.items.4.level")}
+                  </ShadowTableColumn>
+                </ShadowTableRow>
+              </tbody>
+            </ShadowTable>
+          </ShadowBoxContainer>
+          <BodyTitlesContainer>
+            <TitleContainerPrimary>
+              <BodyTitle>{t("activities.title")}</BodyTitle>
+            </TitleContainerPrimary>
+          </BodyTitlesContainer>
+
+          <TimeLineSecondary>
+            <TimeLineSecondaryItem>
+              <TimeLineSecondaryItemPeriod>
+                {t("activities.items.0.period")}
+              </TimeLineSecondaryItemPeriod>
+              <TimeLineSecondaryItemCompany>
+                {t("activities.items.0.school")}
+              </TimeLineSecondaryItemCompany>
+              <TimeLineSecondaryItemTitle>
+                {t("activities.items.0.title")}
+              </TimeLineSecondaryItemTitle>
+              <TimeLineSecondaryItemDescription>
+                {t("activities.items.0.description")}
+              </TimeLineSecondaryItemDescription>
+            </TimeLineSecondaryItem>
+            <TimeLineSecondaryItem>
+              <TimeLineSecondaryItemPeriod>
+                {t("activities.items.1.period")}
+              </TimeLineSecondaryItemPeriod>
+              <TimeLineSecondaryItemCompany>
+                {t("activities.items.1.school")}
+              </TimeLineSecondaryItemCompany>
+              <TimeLineSecondaryItemTitle>
+                {t("activities.items.1.title")}
+              </TimeLineSecondaryItemTitle>
+              <TimeLineSecondaryItemDescription>
+                {t("activities.items.1.description")}
+              </TimeLineSecondaryItemDescription>
+            </TimeLineSecondaryItem>
+          </TimeLineSecondary>
         </BodySectionColumn>
       </BodySectionFlex>
     </BodySectionContainer>

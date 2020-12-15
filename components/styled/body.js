@@ -16,22 +16,22 @@ export const TitleContainerPrimary = styled.div`
     width: 50px;
     background-image: -webkit-repeating-radial-gradient(
       center center,
-      #ff9800,
-      #ff9800 1px,
+      #04b4e0,
+      #04b4e0 1px,
       transparent 0px,
       transparent 100%
     );
     background-image: -moz-repeating-radial-gradient(
       center center,
-      #ff9800,
-      #ff9800 1px,
+      #04b4e0,
+      #04b4e0 1px,
       transparent 0px,
       transparent 100%
     );
     background-image: -ms-repeating-radial-gradient(
       center center,
-      #ff9800,
-      #ff9800 1px,
+      #04b4e0,
+      #04b4e0 1px,
       transparent 0px,
       transparent 100%
     );
@@ -56,22 +56,22 @@ export const TitleContainerSecondary = styled.div`
     width: 50px;
     background-image: -webkit-repeating-radial-gradient(
       center center,
-      #04b4e0,
-      #04b4e0 1px,
+      #ff9800,
+      #ff9800 1px,
       transparent 0px,
       transparent 100%
     );
     background-image: -moz-repeating-radial-gradient(
       center center,
-      #04b4e0,
-      #04b4e0 1px,
+      #ff9800,
+      #ff9800 1px,
       transparent 0px,
       transparent 100%
     );
     background-image: -ms-repeating-radial-gradient(
       center center,
-      #04b4e0,
-      #04b4e0 1px,
+      #ff9800,
+      #ff9800 1px,
       transparent 0px,
       transparent 100%
     );
@@ -83,6 +83,24 @@ export const TitleContainerSecondary = styled.div`
 `;
 
 export const BodyTitle = styled.h2`
+  ::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: #353535;
+    height: 2px;
+    bottom: 30px;
+  }
+  ::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 30px;
+    background-color: #007ced;
+    height: 2px;
+    bottom: 30px;
+  }
   color: #04b4e0;
   text-align: left;
   text-transform: uppercase;
@@ -235,8 +253,14 @@ export const ShadowBox = styled.div`
 export const ShadowBoxContainer = styled.div`
   display: flex;
 `;
+export const ShadowBoxText = styled.span`
+  font-size: small;
+  color: #bdbdbd;
+  margin: 10px -30px 0;
+`;
 
 export const CenterImageDiv = styled.div`
+  flex-direction: column;
   position: relative;
   max-width: 125px;
   display: flex;
@@ -246,4 +270,97 @@ export const CenterImage = styled.img`
   width: 100%;
   border-radius: 10px;
   max-width: 250px;
+`;
+export const ShadowTable = styled.table`
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 10px 15px;
+  background: #333;
+  padding: 15px 10px 15px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  box-shadow: none;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  :hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 17px rgba(0, 0, 0, 0.12);
+  }
+`;
+export const ShadowTableRow = styled.tr`
+  color: white;
+`;
+export const ShadowTableColumn = styled.td`
+  padding: 5px 0;
+  :nth-child(2) {
+    color: #bdbdbd;
+  }
+`;
+export const LanguageSpan = styled.span`
+  border-bottom: 2px solid #04b4e0;
+`;
+
+export const TimeLineSecondary = styled.div`
+  ::before,
+  ::after {
+    content: " ";
+    display: table;
+  }
+`;
+export const TimeLineSecondaryItem = styled.div`
+  :first-child {
+    padding-top: 3px;
+  }
+  position: relative;
+  padding: 25px 0 20px 40px;
+  ::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    background-color: #333;
+    width: 1px;
+    left: 15px;
+    bottom: 5px;
+  }
+  ::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    background-color: #333;
+    width: calc(100% - 15px);
+    left: 15px;
+    bottom: 3px;
+  }
+`;
+export const TimeLineSecondaryItemPeriod = styled.h5`
+  margin-top: 0;
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 5px -40px;
+  color: #d5d5d5;
+  background-color: #222;
+  padding: 0 10px;
+  line-height: 23px;
+  border: 2px solid #007ced;
+  border-radius: 30px;
+`;
+export const TimeLineSecondaryItemCompany = styled.span`
+  display: inline-block;
+  font-size: 12px;
+  color: #aaa;
+  opacity: 0.7;
+  margin-left: 5px;
+`;
+export const TimeLineSecondaryItemTitle = styled.h4`
+  margin: 10px 0 7px;
+  color: #f5f5f5;
+  line-height: 1.2;
+`;
+export const TimeLineSecondaryItemDescription = styled.p`
+  color: #a5a6a7;
 `;

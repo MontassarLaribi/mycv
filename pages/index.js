@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Body from "../components/sections/Body";
+import Header from "../components/sections/Header";
 import Resume from "../components/sections/Resume";
 import { MainApp, MonitorWrapper } from "../components/styled/components";
 import { withTranslation } from "../i18n";
@@ -12,6 +13,7 @@ const Home = ({ t }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MonitorWrapper>
+        <Header></Header>
         <Resume></Resume>
         <Body></Body>
       </MonitorWrapper>

@@ -20,6 +20,18 @@
     "title": "Education",
     "items": [
       {
+        "period": "2017-2020",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "National Diploma in Engineering, Web Developement Major",
+        "description": "My engineering degree helped me master my skills in web developement"
+      },
+      {
+        "period": "2015-2017",
+        "school": "Institut Supéreir De L'Informatique ISI Ariana",
+        "title": "Fondamental Licence in computer science",
+        "description": "My first university degree in computer science"
+      },
+      {
         "period": "2010-2014",
         "school": "Hanibal Ariana HighSchool",
         "title": "National Baccalauréat in computer science",
@@ -30,20 +42,91 @@
         "school": "Bourguiba School",
         "title": "Degree in Japanese language",
         "description": "Followed 4 years of Japanese courses, I was attached to the culture"
-      },
-      {
-        "period": "2015-2017",
-        "school": "Institut Supéreir De L'Informatique ISI Ariana",
-        "title": "Fondamental Licence in computer science",
-        "description": "My first university degree in computer science"
-      },
-      {
-        "period": "2017-2020",
-        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
-        "title": "National Diploma in Engineering, Web Developement Major",
-        "description": "My engineering degree helped me master my skills in web developement"
       }
     ]
   },
-  "graphic": "Graphic Skills"
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "period": "January 2020 - Now",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "University Professor, Web department",
+        "description": "Teaching at ESPRIT in the web department where I coach and manage team of engineers in their most important projects. I also teach SOA (Service Oriented Architecture), HTML/CSS/JavaScript, NodeJS and ReactJS"
+      },
+      {
+        "period": "July 2019 - Now",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "Full-Stack Web Developer",
+        "description": "It started as my mandatory graduation internship then I got recruted as a developer and a professor in the university. My first project was the university's website www.esprit.tn made with React and NestJS."
+      },
+      {
+        "period": "September 2019 - February 2020",
+        "school": "Self-Employed",
+        "title": "Full-Stack Web Developer",
+        "description": "I started a small business \"Corticali\" where I took commissions and made websites and apps for various clients."
+      },
+      {
+        "period": "June 2017 - November 2018",
+        "school": "MediaSoft",
+        "title": "Full-Stack Developer in .NET/C#",
+        "description": "Designing, developing and testing an ERP web app, as well as consulting on ERPs such as Sage and Ciel. I also managed interns."
+      },
+      {
+        "period": "January 2017 - May 2018",
+        "school": "MediaSoft",
+        "title": "Graduation Project .NET/XAMARIN",
+        "description": "I made prototype for an ERP working on a .NET/XAMARIN Stack, going through all the phases of the project."
+      },
+      {
+        "period": "June 2016 - August 2016",
+        "school": "MediaSoft",
+        "title": "ERP/BI Internship",
+        "description": "Creating dashboards and dynamic reporting views with a variaty of tools such as Business Objects, Excel and SQL Server Reporting-Tools."
+      },
+      {
+        "period": "June 2015 - July 2015",
+        "school": "MediaSoft",
+        "title": "Software development Internship",
+        "description": "I made a service using C# that synchronize multiple databases, handeling duplications."
+      }
+    ]
+  },
+  "graphic": "Graphic Skills",
+  "certificats": {
+    "title": "Certificats",
+    "items": [
+      "PNL Training Assured by MedSirat",
+      "Soft-Skills Training Assured by MedSirat",
+      "Training Of Trainers Assured by MedSirat",
+      "\"Training to teach in the university\" by the French Ministry of Superior Education, Research and Innovation on MOOC"
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      { "name": "French", "level": "Fluent" },
+      { "name": "English", "level": "Fluent" },
+      { "name": "Japanese", "level": "Basic" },
+      { "name": "Arabic", "level": "Basic" },
+      { "name": "Tunisian", "level": "Native" }
+    ]
+  },
+  "activities": {
+    "title": "Activities",
+    "items": [
+      {
+        "period": "2018 - Now",
+        "school": "Orchestre Symphonique Scolaire et Universitaire (OSSU)",
+        "title": "Violonist and Stage Manager",
+        "description": "Participated to all the seasons concerts since 2017."
+      },
+      {
+        "period": "2017 - Now",
+        "school": "Orchestre Symphonique de Carthage (CSO)",
+        "title": "Violonist and Stage Manager",
+        "description": "Participated in 20+ concerts."
+      }
+    ]
+  }
 }
