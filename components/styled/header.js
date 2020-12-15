@@ -18,14 +18,6 @@ export const HeaderWrapper = styled.div`
   }
 `;
 
-export const HeaderTitles = styled.ul`
-  margin-right: auto;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  color: white;
-`;
-
 export const HeaderTitleItem = styled.li`
   margin-right: 30px;
   align-self: center;
@@ -38,28 +30,6 @@ export const HeaderTitleItem = styled.li`
   cursor: pointer;
   :hover {
     color: #04b4e0;
-  }
-  ::before {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    width: 3px;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-  ::after {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    top: 0;
-    width: 3px;
-    height: 2px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
   }
 
   :focus::after,

@@ -5,16 +5,24 @@ import {
   HeaderWrapper,
   MainTitle,
 } from "../styled/header";
+import Scrollspy from "react-scrollspy";
 
 export default function Header() {
   return (
     <HeaderWrapper>
-      <MainTitle>Montassar Laribi CV</MainTitle>
-      <HeaderTitles>
-        <HeaderTitleItem>Resume</HeaderTitleItem>
-        <HeaderTitleItem>Highlights</HeaderTitleItem>
-      </HeaderTitles>
-
+      <MainTitle>Montassar Laribi</MainTitle>
+      <Scrollspy
+        className="headerTitles"
+        items={["resume", "highlights"]}
+        currentClassName="active"
+      >
+        <HeaderTitleItem>
+          <a href="#resume">Resume</a>
+        </HeaderTitleItem>
+        <HeaderTitleItem>
+          <a href="#highlights">Highlights</a>
+        </HeaderTitleItem>
+      </Scrollspy>
       <LanguageToggle></LanguageToggle>
     </HeaderWrapper>
   );

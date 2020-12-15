@@ -95,7 +95,7 @@ function getExperience(t) {
 
 const About = ({ t }) => {
   return (
-    <BodySectionContainer>
+    <BodySectionContainer id="resume">
       <TitleContainerSecondary>
         <BodySubTitle>{t("biography")}</BodySubTitle>
       </TitleContainerSecondary>
