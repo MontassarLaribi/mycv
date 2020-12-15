@@ -5,11 +5,12 @@ export const TitleContainerPrimary = styled.div`
   position: relative;
   padding-right: 25px;
   padding-bottom: 15px;
+  width: fit-content;
   &::after {
     position: absolute;
     opacity: 0.45;
     top: 10px;
-    left: 120px;
+    left: 80%;
     content: "";
     height: 30px;
     width: 50px;
@@ -124,9 +125,125 @@ export const SkillsList = styled.ul`
     background-color: #04b4e0;
     border-radius: 3px;
     color: #fff;
-    padding: 1px 10px;
+    padding: 5px 10px;
     margin: 3px 2px;
     font-size: 13px;
   }
 `;
 export const SkillsListItem = styled.li``;
+export const TimeLine = styled.div``;
+export const TimeLineItem = styled.div`
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-bottom: 15px;
+`;
+export const TimeLineLeft = styled.div`
+  width: 30%;
+  display: table-cell;
+  padding-right: 25px;
+  min-height: 100%;
+  text-align: right;
+  vertical-align: top;
+`;
+export const TimeLineLeftPeriod = styled.h5`
+  color: #aaa;
+  margin: 3px 0;
+  font-size: 14px;
+  line-height: 1.4em;
+`;
+export const TimeLineLeftTitle = styled.span`
+  display: block;
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.45em;
+  color: #a5a6a7;
+`;
+export const TimeLineRight = styled.div`
+  margin-top: 0;
+  width: 70%;
+  display: table-cell;
+  padding-left: 25px;
+  padding-right: 15px;
+  vertical-align: top;
+  color: white;
+`;
+export const TimeLineRightTitle = styled.h4`
+  margin-top: 0;
+  font-size: 16px;
+  margin-bottom: 3px;
+`;
+export const TimeLineRightDescription = styled.span`
+  font-size: 0.92em;
+`;
+export const TimeLineDivider = styled.div`
+  position: absolute;
+  top: 0;
+  left: 30%;
+  bottom: 0;
+  width: 1px;
+  background-color: #444;
+  ::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin-left: -8px;
+    border-radius: 10px;
+    background-color: #04b4e0;
+    opacity: 0.25;
+    z-index: 0;
+  }
+  ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 6px;
+    height: 6px;
+    margin-left: -4.5px;
+    background-color: #222;
+    border-radius: 5px;
+    border: 2px solid #04b4e0;
+    z-index: 1;
+  }
+`;
+
+export const ShadowBox = styled.div`
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0 10px 15px;
+  background: #333;
+  padding: 15px 10px 15px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  box-shadow: none;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  :hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 17px rgba(0, 0, 0, 0.12);
+  }
+`;
+export const ShadowBoxContainer = styled.div`
+  display: flex;
+`;
+
+export const CenterImageDiv = styled.div`
+  position: relative;
+  max-width: 125px;
+  display: flex;
+  margin: auto;
+`;
+export const CenterImage = styled.img`
+  width: 100%;
+  border-radius: 10px;
+  max-width: 250px;
+`;

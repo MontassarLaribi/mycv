@@ -15,5 +15,35 @@
   "phone": "Phone",
   "birthdate": "Birthdate",
   "technologies": "Technologies",
-  "technologiesIUse": "Technologies I mainly use :"
+  "technologiesIUse": "Technologies I mainly use :",
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "period": "2010-2014",
+        "school": "Hanibal Ariana HighSchool",
+        "title": "National Baccalauréat in computer science",
+        "description": "Obtained my Baccalauréat being in the top 100 of the country"
+      },
+      {
+        "period": "2010-2014",
+        "school": "Bourguiba School",
+        "title": "Degree in Japanese language",
+        "description": "Followed 4 years of Japanese courses, I was attached to the culture"
+      },
+      {
+        "period": "2015-2017",
+        "school": "Institut Supéreir De L'Informatique ISI Ariana",
+        "title": "Fondamental Licence in computer science",
+        "description": "My first university degree in computer science"
+      },
+      {
+        "period": "2017-2020",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "National Diploma in Engineering, Web Developement Major",
+        "description": "My engineering degree helped me master my skills in web developement"
+      }
+    ]
+  },
+  "graphic": "Graphic Skills"
 }
