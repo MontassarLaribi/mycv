@@ -14,7 +14,7 @@ export default function Header() {
       <Scrollspy
         className="headerTitles"
         items={["resume", "highlights"]}
-        currentClassName="active"
+        currentClassName="activeMenu"
       >
         <HeaderTitleItem>
           <a href="#resume">Resume</a>

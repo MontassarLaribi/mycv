@@ -55,37 +55,7 @@ a {
   color: white;
 }
 
-.active {
+.activeMenu {
   color: #04b4e0;
-}
-
-.active::before {
-  background-color: #04b4e0;
-  width: 100%;
-  height: 1.5px;
-  outline: 0;
-  -webkit-transition: all 1s ease 0s;
-  transition: all 1s ease 0s;
-  position: absolute;
-  z-index: -1;
-  content: "";
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-.active::after {
-  position: absolute;
-  z-index: -1;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background-color: #04b4e0;
-  width: 100%;
-  height: 1.5px;
-  outline: 0;
-  transition: all 1s ease 0s;
+  font-weight: bold;
 }

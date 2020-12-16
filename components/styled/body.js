@@ -97,7 +97,7 @@ export const BodyTitle = styled.h2`
     position: absolute;
     content: "";
     width: 30px;
-    background-color: #007ced;
+    background-color: white;
     height: 2px;
     bottom: 30px;
   }

@@ -8,8 +8,8 @@ export const HeaderWrapper = styled.div`
   background-color: transparent;
   position: fixed;
   display: flex;
-  background-color: #000000;
-  background: linear-gradient(#000000, #2e2e2e);
+  background-color: #222;
+  box-shadow: 0px 1px 2px 1px rgb(255 255 255 / 30%);
   @media only screen and (max-width: 1024px) {
     position: fixed;
     top: 0;
@@ -30,6 +30,29 @@ export const HeaderTitleItem = styled.li`
   cursor: pointer;
   :hover {
     color: #04b4e0;
+  }
+
+  ::before {
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  ::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #04b4e0;
+    width: 0;
   }
 
   :focus::after,
