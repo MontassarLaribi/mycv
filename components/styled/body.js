@@ -124,6 +124,9 @@ export const BodySectionContainer = styled.div`
   margin-left: 20px;
 `;
 export const BodySectionColumn = styled.div`
+  & > .section-title:not(:first-child) {
+    margin-top: 30px;
+  }
   width: 50%;
   @media only screen and (max-width: 1024px) {
     width: 100%;
@@ -245,6 +248,7 @@ export const ShadowBox = styled.div`
   box-shadow: none;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
+  cursor: ${(props) => (props.zoomable === true ? "pointer" : "auto")};
   :hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 17px rgba(0, 0, 0, 0.12);

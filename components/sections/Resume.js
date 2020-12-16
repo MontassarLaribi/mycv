@@ -19,7 +19,7 @@ import { withTranslation } from "../../i18n";
 
 const Resume = ({ t }) => {
   return (
-    <ResumeSection>
+    <ResumeSection id="bio">
       <ProfileImageWrapper>
         <ProfileImageDiv>
           <ProfileImage src="/images/montassar_laribi.png"></ProfileImage>

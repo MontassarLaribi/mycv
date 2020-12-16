@@ -12,7 +12,7 @@ import {
 const Graphic = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("graphic")}</BodyTitle>
         </TitleContainerPrimary>

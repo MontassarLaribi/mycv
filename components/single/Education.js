@@ -46,7 +46,7 @@ function getEducation(t) {
 const Education = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("education.title")}</BodyTitle>
         </TitleContainerPrimary>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
   top: 0;
   height: 70px;
   background-color: transparent;
@@ -114,7 +114,7 @@ export const ToggleInput = styled.input`
   opacity: 0;
   z-index: 9;
   cursor: pointer;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 `;
 export const ToggleSpan = styled.span`
   width: 30px;

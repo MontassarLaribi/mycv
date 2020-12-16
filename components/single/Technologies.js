@@ -11,7 +11,7 @@ import { ResumeDescription } from "../styled/components";
 const Technologies = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("technologies")}</BodyTitle>
         </TitleContainerPrimary>

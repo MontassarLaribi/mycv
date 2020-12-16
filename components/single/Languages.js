@@ -13,7 +13,7 @@ import {
 const Languages = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("languages.title")}</BodyTitle>
         </TitleContainerPrimary>

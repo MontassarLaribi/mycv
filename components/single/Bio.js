@@ -9,7 +9,7 @@ import { ResumeDescription } from "../styled/components";
 const Bio = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("aboutMe")}</BodyTitle>
         </TitleContainerPrimary>

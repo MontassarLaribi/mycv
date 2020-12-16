@@ -13,7 +13,7 @@ export default function Header() {
       <MainTitle>Montassar Laribi</MainTitle>
       <Scrollspy
         className="headerTitles"
-        items={["resume", "highlights"]}
+        items={["bio", "resume", "highlights"]}
         currentClassName="activeMenu"
       >
         <HeaderTitleItem>

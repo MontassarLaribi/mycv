@@ -14,7 +14,7 @@ import {
 const Activities = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("activities.title")}</BodyTitle>
         </TitleContainerPrimary>

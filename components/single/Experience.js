@@ -46,7 +46,7 @@ function getExperience(t) {
 const Experience = ({ t }) => {
   return (
     <>
-      <BodyTitlesContainer>
+      <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
           <BodyTitle>{t("experience.title")}</BodyTitle>
         </TitleContainerPrimary>
