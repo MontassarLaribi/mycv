@@ -18,6 +18,13 @@ export const HeaderWrapper = styled.div`
   }
 `;
 
+export const HeaderTitleList = styled.ul`
+  margin-right: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: white;
+`;
 export const HeaderTitleItem = styled.li`
   margin-right: 30px;
   align-self: center;

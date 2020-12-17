@@ -1,5 +1,5 @@
 {
-  "pageTitle": "My CV Montassar Laribi",
+  "pageTitle": "Montassar Laribi",
   "biography": "Biography",
   "aboutMe": "About me",
   "myNameIs": "My name is",
@@ -127,6 +127,18 @@
         "title": "Violonist and Stage Manager",
         "description": "Participated in 20+ concerts."
       }
+    ]
+  },
+  "highlights": {
+    "title": "Highlights",
+    "items": [
+      "This Website",
+      "LinkedIn Badge",
+      "ESPRIT Website SSR/Optimizations",
+      "Teaching experience",
+      "Maabaadhna",
+      "Placini App",
+      "ESPRIT Communication Team Collabs"
     ]
   }
 }

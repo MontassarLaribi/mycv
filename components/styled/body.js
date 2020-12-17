@@ -127,7 +127,7 @@ export const BodySectionColumn = styled.div`
   & > .section-title:not(:first-child) {
     margin-top: 30px;
   }
-  width: 50%;
+  width: ${(props) => (props.full === true ? "100%" : "50%")};
   @media only screen and (max-width: 1024px) {
     width: 100%;
   }
