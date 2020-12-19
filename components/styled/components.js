@@ -145,6 +145,7 @@ export const ResumeList = styled.ul`
   padding: 0;
 `;
 export const ResumeListItem = styled.li`
+  font-size: 0.92em;
   margin: 10px 0;
   & > a {
     color: #ff9800;

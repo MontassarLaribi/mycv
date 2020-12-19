@@ -367,6 +367,7 @@ export const TimeLineSecondaryItemTitle = styled.h4`
   line-height: 1.2;
 `;
 export const TimeLineSecondaryItemDescription = styled.p`
+  font-size: 0.92em;
   color: #a5a6a7;
 `;
 
