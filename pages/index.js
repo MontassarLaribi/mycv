@@ -87,6 +87,23 @@ const Home = ({ t }) => {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#000000" />
+        <meta property="og:title" content="" />
+        <meta name="description" content="" />
+        <meta property="og:description" content="" />
+        <meta name="keywords" content="" />
+        <meta property="og:url" content={`https://montassarlaribi.com`} />
+        <link rel="canonical" href="https://montassarlaribi.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/images/montassar_laribi.png" />
+        <meta
+          property="og:image:url"
+          content="https://montassarlaribi.com/images/montassar_laribi.png"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://montassarlaribi.com/images/montassar_laribi.png"
+        />
+        <meta property="og:locale" content="fr_FR" />
       </Head>
       <MonitorWrapper id="bio">
         <Modal showModal={showModal}></Modal>
