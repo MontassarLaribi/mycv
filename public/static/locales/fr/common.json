@@ -186,5 +186,6 @@
   "readArticle": "Lire l'article",
   "seeArticle": "Voir l'article",
   "website": "Visitez le site Web",
-  "googleStore": "En savoir plus sur Google Play"
+  "googleStore": "En savoir plus sur Google Play",
+  "header": { "resume": "Mon CV", "highlights": "Réalisations" }
 }

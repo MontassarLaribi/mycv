@@ -186,5 +186,6 @@
   "readArticle": "Read the article",
   "seeArticle": "See the article",
   "website": "Visit the website",
-  "googleStore": "See more on Google Play"
+  "googleStore": "See more on Google Play",
+  "header": { "resume": "Resume", "highlights": "Highlights" }
 }

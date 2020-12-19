@@ -1,4 +1,5 @@
 import LanguageToggle from "../single/languageToggle";
+import { withTranslation } from "../../i18n";
 import {
   HeaderTitleItem,
   HeaderTitleList,
@@ -7,7 +8,7 @@ import {
   MainTitleSmall,
 } from "../styled/header";
 
-export default function Header() {
+const Header = ({ t }) => {
   return (
     <HeaderWrapper>
       <MainTitle>
@@ -18,13 +19,18 @@ export default function Header() {
       </MainTitleSmall>
       <HeaderTitleList>
         <HeaderTitleItem>
-          <a href="#resume">Resume</a>
+          <a href="#resume">{t("header.resume")}</a>
         </HeaderTitleItem>
         <HeaderTitleItem>
-          <a href="#highlights">Highlights</a>
+          <a href="#highlights">{t("header.highlights")}</a>
         </HeaderTitleItem>
       </HeaderTitleList>
       <LanguageToggle></LanguageToggle>
     </HeaderWrapper>
   );
-}
+};
+Header.getInitialProps = async () => ({
+  namespacesRequired: ["common"],
+});
+
+export default withTranslation("common")(Header);
