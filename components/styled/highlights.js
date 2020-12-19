@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Paragraph = styled.p`
+  font-size: 0.92em;
   margin: 20px 25px;
-  color: #bdbdbd;
+  color: #f5f5f5;
 `;
 
 export const SpanBox = styled.span`

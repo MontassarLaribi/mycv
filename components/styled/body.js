@@ -124,6 +124,7 @@ export const BodySectionContainer = styled.div`
   margin-left: 20px;
 `;
 export const BodySectionColumn = styled.div`
+  padding: ${(props) => (props.noPad === true ? "" : "0 15px")};
   & > .section-title:not(:first-child) {
     margin-top: 30px;
   }

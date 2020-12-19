@@ -120,8 +120,9 @@ export const ResumeSubTitle = styled.h3`
 `;
 
 export const ResumeDescription = styled.p`
+  font-size: 0.92em;
   margin: 10px 25px;
-  color: #bdbdbd;
+  color: #f5f5f5;
   text-align: justify;
 `;
 
