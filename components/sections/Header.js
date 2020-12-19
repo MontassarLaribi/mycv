@@ -4,12 +4,18 @@ import {
   HeaderTitleList,
   HeaderWrapper,
   MainTitle,
+  MainTitleSmall,
 } from "../styled/header";
 
 export default function Header() {
   return (
     <HeaderWrapper>
-      <MainTitle>Montassar Laribi</MainTitle>
+      <MainTitle>
+        <a href="#bio">Montassar Laribi</a>
+      </MainTitle>
+      <MainTitleSmall>
+        <a href="#bio">M.L</a>
+      </MainTitleSmall>
       <HeaderTitleList>
         <HeaderTitleItem>
           <a href="#resume">Resume</a>

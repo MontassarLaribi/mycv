@@ -5,11 +5,10 @@ export const MainApp = styled.div`
   align-content: center;
   align-items: center;
   justify-content: center;
-  background-color: black;
   width: 100%;
   height: 100%;
-  background-color: #000000;
-  background: linear-gradient(#000000, #2e2e2e);
+  background-color: #222;
+  /* background: linear-gradient(#000000, #2e2e2e); */
   @media only screen and (max-width: 1024px) {
     height: auto;
   }
@@ -35,6 +34,8 @@ export const ResumeSection = styled.div`
   width: 25%;
   word-break: break-word;
   overflow-y: auto;
+  background-color: #333;
+  border-right: 2px solid #444;
   &::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -55,6 +56,8 @@ export const ResumeSection = styled.div`
     width: 100%;
     overflow-y: initial;
     margin-top: 100px;
+    background-color: initial;
+    border-right: none;
   }
 `;
 

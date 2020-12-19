@@ -147,3 +147,47 @@ export const MainTitle = styled.h1`
     display: none;
   }
 `;
+export const MainTitleSmall = styled.h1`
+  display: none;
+  align-self: center;
+  margin-left: 20px;
+  font-size: medium;
+  color: #04b4e0;
+  @media only screen and (max-width: 1024px) {
+    display: initial;
+  }
+`;
+export const List = styled.ul`
+  color: white;
+  list-style: none;
+  margin-left: 20px;
+`;
+export const ListItem = styled.li`
+  padding: 5px 0;
+  ::before {
+    content: "";
+    display: block;
+    margin-top: 2px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin-left: -20px;
+    border-radius: 10px;
+    background-color: #04b4e0;
+    opacity: 0.25;
+    z-index: 0;
+  }
+  ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -14px;
+    width: 6px;
+    height: 6px;
+    margin-left: -16.5px;
+    background-color: #222;
+    border-radius: 5px;
+    border: 2px solid #04b4e0;
+    z-index: 1;
+  }
+`;

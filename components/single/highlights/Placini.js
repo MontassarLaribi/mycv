@@ -4,15 +4,49 @@ import {
   BodyTitlesContainer,
   TitleContainerPrimary,
 } from "../../styled/body";
+import {
+  Paragraph,
+  ShadowBoxContainer,
+  ArticleTitle,
+  ArticleText,
+  ArticleImageWrapper,
+  ArticleImage,
+  ArticleContentWrapper,
+  Article,
+} from "../../styled/highlights";
 
 const Placini = ({ t }) => {
   return (
     <>
       <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
-          <BodyTitle>{t("highlights.item.5")}</BodyTitle>
+          <BodyTitle>{t("highlights.items.5")}</BodyTitle>
         </TitleContainerPrimary>
       </BodyTitlesContainer>
+      <Paragraph>{t("highlights.placini.0")}</Paragraph>
+      <Paragraph>{t("highlights.placini.1")}</Paragraph>
+      <ShadowBoxContainer>
+        <Article>
+          <a
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://play.google.com/store/apps/details?id=placini.ionic.app&hl=en"
+          >
+            <ArticleImageWrapper>
+              <ArticleImage
+                noInvert={true}
+                src="/images/googleplay.png"
+                alt="Maabaadhna logo"
+              ></ArticleImage>
+            </ArticleImageWrapper>
+            <ArticleContentWrapper>
+              <ArticleTitle>Placini - CSO</ArticleTitle>
+              <ArticleText>{t("googleStore")}</ArticleText>
+            </ArticleContentWrapper>
+          </a>
+        </Article>
+      </ShadowBoxContainer>
     </>
   );
 };

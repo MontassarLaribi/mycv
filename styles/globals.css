@@ -59,3 +59,12 @@ a {
   color: #04b4e0;
   font-weight: bold;
 }
+.link {
+  place-content: center;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  border-radius: 8px;
+}

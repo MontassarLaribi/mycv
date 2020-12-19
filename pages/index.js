@@ -16,7 +16,7 @@ const Home = ({ t }) => {
         <title>{t("pageTitle")}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <MonitorWrapper>
+      <MonitorWrapper id="bio">
         <Modal showModal={showModal}></Modal>
         <Header></Header>
         <Resume></Resume>

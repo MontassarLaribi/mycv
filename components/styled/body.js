@@ -368,3 +368,13 @@ export const TimeLineSecondaryItemTitle = styled.h4`
 export const TimeLineSecondaryItemDescription = styled.p`
   color: #a5a6a7;
 `;
+
+export const FooterContainer = styled.div`
+  background-color: #333;
+  border-top: 2px solid #444;
+  padding: 30px 0;
+  text-align: center;
+`;
+export const FooterText = styled.span`
+  color: white;
+`;

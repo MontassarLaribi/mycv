@@ -133,12 +133,58 @@
     "title": "Highlights",
     "items": [
       "This Website",
-      "LinkedIn Badge",
+      "LinkedIn Badges",
       "ESPRIT Website SSR/Optimizations",
       "Teaching experience",
       "Maabaadhna",
       "Placini App",
       "ESPRIT Communication Team Collabs"
+    ],
+    "website": [
+      "I'm happy to say that I'm proud of my website, because I started everything from scratch and tried to put everything I know about web developement in it :",
+      "For the Front-end part I used : ",
+      "For the testing part I used : ",
+      "For the deployment and CI/CD part I used : "
+    ],
+    "linkedIn": [
+      "Small achievements but I'm proud that I could pass the tests (containing really tricky and hard questions) on the technologies I'm using.",
+      "Top 5% on the ReactJS LinkedIn quiz",
+      "Top 5% on the Javascript LinkedIn quiz"
+    ],
+    "teaching": [
+      " Teaching has been one of the best experiences in my life, not only it gave me new perspectives on life in general, but I also got to understand how everything works under the hood so I could teach it to other people effectively.",
+      "It also gave me this new sense of information processing, where I'm able to understand problems quicker than I used to and especially how to solve them just as quick too.",
+      "What I taught:",
+      "What I learned:"
+    ],
+    "maabaadhna": [
+      "During the beginning of the pandemic I volunteered to make a COVID-19 helping platform for the Tunisia's ICUs. I had to make the whole front-end in 72 hours.",
+      "This project has been a great team effort from a lot of good hearted people. Main collaborators are : Tunisie Télécom, BeeCoop, ESPRIT et Associa-Med."
+    ],
+    "placini": [
+      "As I'm a violinist and stage manager at the Carthage Symfony Orchestra (CSO), I made a proposition to the maestro, to make an app that would help our audience to find their places easier in the Tunis Municipal Theatre.",
+      "The App was made with Ionic/Angular, and it is used by our audience. It will guide you to your place with voice assitance, you will also get notified of our new concerts and such."
+    ],
+    "comCollab": [
+      "When we were about to deploy ESPRIT's website, a lot of the content we had, had to be redesigned to match the new chart. And lots of new content had to be created.",
+      "When I could, I never hesitated to help the communications team of ESPRIT, as I had knowledge in Photoshop and Illustrator. So I made a few posters, mockups and other graphic related tasks with them.",
+      "Poster I made for the online payment news.",
+      "Poster I made for the \"Now recruiting\" news."
+    ],
+    "espritWebsite": [
+      "A project I'm very proud of is ESPRIT's website. ESPRIT has been both my school and my workplace after graduating. As my graduation project, and then part of my job, I remade the university's website because it had a few problems: Lack of responsiveness, Performance issues, Security issues...ect.",
+      "I used React/CRA for the Front-End part and Nest.JS for my backend. I made every optimization I know (and learned back then) to make the website as performant as possible.",
+      "Optimizations I used : ",
+      "But most importantly I stumbled against a major problem with React/CRA which is the SEO part, for which I found an out of the box solution: I created an SSR middleware in my NestJS server but only for bots.",
+      "I wrote a medium article on the SSR service I made :"
     ]
-  }
+  },
+  "visitGithub": "Visit the GitHub Repository",
+  "before": "Old website score : Before",
+  "after": "New website score after optimization : After",
+  "best": "Some pages even have a perfect score",
+  "readArticle": "Read the article",
+  "seeArticle": "See the article",
+  "website": "Visit the website",
+  "googleStore": "See more on Google Play"
 }
