@@ -1,7 +1,190 @@
 {
-  "h1": "A simple example",
-  "change-locale": "Change locale",
-  "to-second-page": "To second page",
-  "error-with-status": "A {{statusCode}} error occurred on server",
-  "error-without-status": "An error occurred on the server"
+  "pageTitle": "Montassar Laribi",
+  "biography": "Biographie",
+  "aboutMe": "A propos de moi",
+  "myNameIs": "Je m'appelle",
+  "name": "Montassar Laribi",
+  "Im": "et je suis un ",
+  "fullstackengineer": "Ingénieur Full-Stack JS",
+  "professor": "Professeur Universitaire",
+  "bioDescription": "J'ai plus de 2 ans d'expérience dans la conception, le développement, les tests et le déploiement d'applications Web créer à partir de zéro. Capacité éprouvée à optimiser les performances Web et à mettre en œuvre des solutions SSR prêtes à l'emploi. Et aussi 1+ an d'expérience en tant que professeur d'université où j'encadre principalement des équipes de futurs ingénieurs dans leurs projets universitaires les plus importants. J'enseigner les technologies Web de base et avancées.",
+  "downloadCV": "Télécharger mon CV",
+  "myProfile": "Mon Profile",
+  "degree": "Diplôme",
+  "degreeDescription": "Diplôme d'Ingénieur (BAC +5/6)",
+  "phone": "Téléphone",
+  "birthdate": "Date de naissance",
+  "technologies": "Technologies",
+  "technologiesIUse": "Les technologies que j'utilise le plus souvent :",
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "period": "2017-2020",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "Diplôme National d'Ingénieur, spécialité WEB",
+        "description": "Mon diplôme d'ingénieur m'a aidé à maîtriser mes compétences en développement web."
+      },
+      {
+        "period": "2015-2017",
+        "school": "Institut Supéreir De L'Informatique ISI Ariana",
+        "title": "Fondamental Licence in computer science",
+        "description": "Mon premier diplôme universitaire en sciences informatiques."
+      },
+      {
+        "period": "2010-2014",
+        "school": "Hanibal Ariana HighSchool",
+        "title": "National Baccalauréat in computer science",
+        "description": "J'ai obtenu mon Baccalauréat en étant dans le top 100 du pays."
+      },
+      {
+        "period": "2010-2014",
+        "school": "Bourguiba School",
+        "title": "Degree in Japanese language",
+        "description": "J'ai fait 4 ans de cours de japonais, j'étais attaché à la culture."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "period": "January 2020 - Now",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "Professeur Universitaire, Département WEB",
+        "description": "J'enseigne à ESPRIT dans le département web où je coach et encadre des équipes d'ingénieurs dans leurs projets les plus importants. J'enseigne également l'SOA (Service Oriented Architecture), HTML / CSS / JavaScript, NodeJS et ReactJS"
+      },
+      {
+        "period": "July 2019 - Now",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "Developpeur Web Full-Stack",
+        "description": "Cela a commencé comme mon stage de fin d'études obligatoire puis j'ai été recruté en tant que développeur et professeur à l'université. Mon premier projet a été le site Web de l'université www.esprit.tn réalisé avec React et NestJS."
+      },
+      {
+        "period": "September 2019 - February 2020",
+        "school": "Travailleur indépendant",
+        "title": "Developpeur Web Full-Stack",
+        "description": "J'ai démarré une petite entreprise \"Corticali\" où j'ai pris des commissions et créé des sites Web et des applications pour divers clients."
+      },
+      {
+        "period": "June 2017 - November 2018",
+        "school": "MediaSoft",
+        "title": "Developpeur Full-Stack .NET/C#",
+        "description": "Conception, développement et test d'une application web ERP, ainsi que du consulting sur des ERP tels que Sage et Ciel. J'ai également géré et encadré des stagiaires."
+      },
+      {
+        "period": "January 2017 - May 2018",
+        "school": "MediaSoft",
+        "title": "Projet PFE .NET/XAMARIN",
+        "description": "J'ai réalisé un prototype pour un ERP travaillant sur un stack .NET/XAMARIN, en passant par toutes les phases du projet."
+      },
+      {
+        "period": "June 2016 - August 2016",
+        "school": "MediaSoft",
+        "title": "Stage d'été ERP/BI",
+        "description": "Création de tableaux de bord et de vues de rapport dynamiques avec une variété d'outils tels que Business Objects, Excel et SQL Server Reporting-Tools."
+      },
+      {
+        "period": "June 2015 - July 2015",
+        "school": "MediaSoft",
+        "title": "Software development Internship",
+        "description": "J'ai créé un service utilisant C # qui synchronise plusieurs bases de données, en gérant les doublons et conflits."
+      }
+    ]
+  },
+  "graphic": "Compétences graphiques",
+  "certificats": {
+    "title": "Certificats",
+    "items": [
+      "PNL Training Assured by MedSirat",
+      "Soft-Skills Training Assured by MedSirat",
+      "Training Of Trainers Assured by MedSirat",
+      "Attestation de suivi du MOOC : \"Se former pour enseigner dans le supérieur\" proposé par le Ministère de l'enseignement supérieur, de la recherche et de l'innovation Français"
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      { "name": "Français", "level": "Courant" },
+      { "name": "Anglais", "level": "Courant" },
+      { "name": "Japonais", "level": "Basique" },
+      { "name": "Arabe", "level": "Basique" },
+      { "name": "Tunisien", "level": "Native" }
+    ]
+  },
+  "activities": {
+    "title": "Activités",
+    "items": [
+      {
+        "period": "2018 - Now",
+        "school": "Orchestre Symphonique Scolaire et Universitaire (OSSU)",
+        "title": "Violoniste et régisseur",
+        "description": "J'ai participé à toutes les concerts des saisons depuis 2017."
+      },
+      {
+        "period": "2017 - Now",
+        "school": "Orchestre Symphonique de Carthage (CSO)",
+        "title": "Violoniste et régisseur",
+        "description": "J'ai participé à plus de 20 concerts."
+      }
+    ]
+  },
+  "highlights": {
+    "title": "Réalisations",
+    "items": [
+      "Ce siteweb",
+      "Badges LinkedIn",
+      "Site ESPRIT SSR/Optimisations",
+      "Expérience en enseignement",
+      "Maabaadhna",
+      "Placini App",
+      "Collaboration avec l'équipe Com d'ESPRIT"
+    ],
+    "website": [
+      "Je suis fier de mon site Web, car j'ai tout commencé à partir de zéro et j'ai essayé d'y mettre toutes les bonnes pratiques du développement Web:",
+      "Pour la partie Front-End, j'ai utilisé : ",
+      "Pour la partie tests, j'ai utilisé : ",
+      "Pour la partie déploiement et CI/CD, j'ai utilisé : "
+    ],
+    "linkedIn": [
+      "Petites réalisations mais je suis fier d'avoir pu passer les tests (contenant des questions vraiment délicates et difficiles) sur les technologies que j'utilise.",
+      "Top 5% sur le quiz ReactJS de LinkedIn",
+      "Top 5% sur le quiz Javascript de LinkedIn "
+    ],
+    "teaching": [
+      "L'enseignement a été l'une des meilleures expériences de ma vie, non seulement cela m'a donné de nouvelles perspectives sur la vie en général, mais j'ai également pu comprendre comment tout fonctionne sous le capot afin que je puisse l'enseigner efficacement à d'autres personnes.",
+      "Cela m'a également donné ce nouveau sens du traitement de l'information, où je suis capable de comprendre les problèmes plus rapidement qu'auparavant et surtout comment les résoudre tout aussi rapidement.",
+      "Ce que j'ai enseigné:",
+      "Ce que j'ai appris:"
+    ],
+    "maabaadhna": [
+      "Au début de la pandémie, je me suis porté volontaire pour créer une plateforme d'aide au COVID-19 pour les SAMUs de Tunisie. J'ai dû faire tout le front-end en 72 heures.",
+      "Ce projet a été un grand effort d'équipe de la part de nombreuses personnes au grand cœur. Les principaux collaborateurs sont: Tunisie Télécom, BeeCoop, ESPRIT et Associa-Med."
+    ],
+    "placini": [
+      "Comme je suis violoniste et régisseur à l'Orchestre Symfony de Carthage (CSO), j'ai fait une proposition au maestro, de faire une application qui aiderait notre public à trouver plus facilement sa place au Théâtre Municipal de Tunis.",
+      "The App was made with Ionic/Angular, and it is used by our audience. It will guide you to your place with voice assitance, you will also get notified of our new concerts and such."
+    ],
+    "comCollab": [
+      "Quand nous étions sur le point de déployer le site Web d'ESPRIT, beaucoup de contenu que nous avions, a dû être repensé pour correspondre à la nouvelle charte graphique. Et beaucoup de nouveau contenu a dû être créé.",
+      "Quand j'ai pu, je n'ai jamais hésité à aider l'équipe de com d'ESPRIT, car j'avais des connaissances en Photoshop et Illustrator. J'ai donc réalisé avec eux quelques affiches, maquettes et autres tâches graphiques.",
+      "Affiche que j'ai réalisée pour l'actualité des paiements en ligne.",
+      "Affiche que j'ai réalisée pour l'actualité ESPRIT Recrute."
+    ],
+    "espritWebsite": [
+      "Un projet dont je suis très fier est le site Web d'ESPRIT. ESPRIT a été à la fois mon école et mon lieu de travail après avoir obtenu mon diplôme. Dans le cadre de mon projet de fin d'études, puis dans le cadre de mon travail, j'ai refait le siteweb de l'université car il avait quelques problèmes: manque de réactivité, problèmes de performances, problèmes de sécurité ... ect.",
+      "J'ai utilisé React / CRA pour la partie Front-End et Nest.JS pour mon backend. J'ai fait toutes les optimisations que je connais (et apprises à l'époque) pour rendre le site Web aussi performant que possible.",
+      "Optimisations que j'ai utilisées: ",
+      "Mais surtout, je suis tombé sur un problème majeur avec React / CRA qui est la partie SEO, pour lequel j'ai trouvé une solution : j'ai créé un middleware SSR dans mon serveur NestJS mais uniquement pour les bots(crawlers).",
+      "J'ai écrit un article sur Medium sur le service SSR que j'ai réalisé: "
+    ]
+  },
+  "visitGithub": "Visitez le répértoire GitHub",
+  "before": "Ancien score du site Web: avant",
+  "after": "Nouveau score du site Web après optimisation: après",
+  "best": "Certaines pages ont même un score parfait",
+  "readArticle": "Lire l'article",
+  "seeArticle": "Voir l'article",
+  "website": "Visitez le site Web",
+  "googleStore": "En savoir plus sur Google Play"
 }

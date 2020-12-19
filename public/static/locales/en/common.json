@@ -5,7 +5,7 @@
   "myNameIs": "My name is",
   "name": "Montassar Laribi",
   "Im": "and I'm a ",
-  "fullstackengineer": "Full-Stack Engineer",
+  "fullstackengineer": "Full-Stack JS Engineer",
   "professor": "University Professor",
   "bioDescription": "I have 2+ years of experience in designing, developing, testing and deploying web apps from scratch. Proven ability in optimizing web performance and implementing SSR solutions out of the box. And also 1+ year of experience as a university professor where I mainly hundle teams of futur engineers in their most important university projects. As well as teach basic and advanced web technologies.",
   "downloadCV": "Download my cv",
@@ -23,25 +23,25 @@
         "period": "2017-2020",
         "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
         "title": "National Diploma in Engineering, Web Developement Major",
-        "description": "My engineering degree helped me master my skills in web developement"
+        "description": "My engineering degree helped me master my skills in web development."
       },
       {
         "period": "2015-2017",
         "school": "Institut Supéreir De L'Informatique ISI Ariana",
         "title": "Fondamental Licence in computer science",
-        "description": "My first university degree in computer science"
+        "description": "My first university degree in computer science."
       },
       {
         "period": "2010-2014",
         "school": "Hanibal Ariana HighSchool",
         "title": "National Baccalauréat in computer science",
-        "description": "Obtained my Baccalauréat being in the top 100 of the country"
+        "description": "Obtained my Baccalauréat being in the top 100 of the country."
       },
       {
         "period": "2010-2014",
         "school": "Bourguiba School",
         "title": "Degree in Japanese language",
-        "description": "Followed 4 years of Japanese courses, I was attached to the culture"
+        "description": "Followed 4 years of Japanese courses, I was attached to the culture."
       }
     ]
   },
@@ -82,19 +82,19 @@
         "period": "June 2016 - August 2016",
         "school": "MediaSoft",
         "title": "ERP/BI Internship",
-        "description": "Creating dashboards and dynamic reporting views with a variaty of tools such as Business Objects, Excel and SQL Server Reporting-Tools."
+        "description": "Creating dashboards and dynamic reporting views with a variety of tools such as Business Objects, Excel and SQL Server Reporting-Tools."
       },
       {
         "period": "June 2015 - July 2015",
         "school": "MediaSoft",
         "title": "Software development Internship",
-        "description": "I made a service using C# that synchronize multiple databases, handeling duplications."
+        "description": "I made a service using C# that synchronize multiple databases, handling duplicates. duplications."
       }
     ]
   },
   "graphic": "Graphic Skills",
   "certificats": {
-    "title": "Certificats",
+    "title": "Certificates",
     "items": [
       "PNL Training Assured by MedSirat",
       "Soft-Skills Training Assured by MedSirat",
@@ -118,13 +118,13 @@
       {
         "period": "2018 - Now",
         "school": "Orchestre Symphonique Scolaire et Universitaire (OSSU)",
-        "title": "Violonist and Stage Manager",
+        "title": "Violinist and Stage Manager",
         "description": "Participated to all the seasons concerts since 2017."
       },
       {
         "period": "2017 - Now",
         "school": "Orchestre Symphonique de Carthage (CSO)",
-        "title": "Violonist and Stage Manager",
+        "title": "Violinist and Stage Manager",
         "description": "Participated in 20+ concerts."
       }
     ]
@@ -141,7 +141,7 @@
       "ESPRIT Communication Team Collabs"
     ],
     "website": [
-      "I'm happy to say that I'm proud of my website, because I started everything from scratch and tried to put everything I know about web developement in it :",
+      "I'm happy to say that I'm proud of my website, because I started everything from scratch and tried to put everything I know about web development in it :",
       "For the Front-end part I used : ",
       "For the testing part I used : ",
       "For the deployment and CI/CD part I used : "
@@ -163,7 +163,7 @@
     ],
     "placini": [
       "As I'm a violinist and stage manager at the Carthage Symfony Orchestra (CSO), I made a proposition to the maestro, to make an app that would help our audience to find their places easier in the Tunis Municipal Theatre.",
-      "The App was made with Ionic/Angular, and it is used by our audience. It will guide you to your place with voice assitance, you will also get notified of our new concerts and such."
+      "L'application a été conçue avec Ionic / Angular et est utilisée par notre public. Il vous guidera à votre place avec une assistance vocale, vous serez également averti de nos nouveaux concerts et autres."
     ],
     "comCollab": [
       "When we were about to deploy ESPRIT's website, a lot of the content we had, had to be redesigned to match the new chart. And lots of new content had to be created.",
