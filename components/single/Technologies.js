@@ -19,6 +19,7 @@ const Technologies = ({ t }) => {
       <ResumeDescription>{t("technologiesIUse")}</ResumeDescription>
       <SkillsList>
         <SkillsListItem>React.JS (CRA/NextJS)</SkillsListItem>
+        <SkillsListItem>Redux / Redux-Toolkit</SkillsListItem>
         <SkillsListItem>Nest.JS</SkillsListItem>
         <SkillsListItem>Node.JS</SkillsListItem>
         <SkillsListItem>MongoDB</SkillsListItem>
