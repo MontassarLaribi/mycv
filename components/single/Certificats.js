@@ -26,6 +26,7 @@ const Certificats = ({ t }) => {
         <ShadowBox zoomable={true}>
           <CenterImageDiv>
             <CenterImage
+              id="pnl"
               onClick={() =>
                 dispatch(
                   show({

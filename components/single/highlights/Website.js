@@ -27,7 +27,7 @@ const Website = ({ t }) => {
       </Paragraph>
       <Paragraph>
         {t("highlights.website.2")}
-        <SpanBox>Jest</SpanBox>{" "}
+        <SpanBox>Jest</SpanBox> <SpanBox>Puppeteer</SpanBox>
       </Paragraph>
       <Paragraph>
         {t("highlights.website.3")}

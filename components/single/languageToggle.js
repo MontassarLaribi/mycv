@@ -10,6 +10,7 @@ export default function LanguageToggle() {
   return (
     <ToggleWrapper className={language === "fr" && "active"}>
       <ToggleInput
+        id="toggle-language"
         onClick={() =>
           i18n.changeLanguage(i18n.language === "en" ? "fr" : "en")
         }

@@ -21,7 +21,7 @@ const Modal = ({ showModal }) => {
   const dispatch = useDispatch();
   const { image, caption } = useSelector(selectShowModalContent);
   return (
-    <ModalWrapper showModal={showModal}>
+    <ModalWrapper showModal={showModal} id="modal">
       <ModalBackground></ModalBackground>
       <ModalContentWrapper>
         <ModalContainer>
@@ -35,7 +35,10 @@ const Modal = ({ showModal }) => {
                 x
               </ModalContentFigureButton>
               <ModalContentFigure>
-                <ModalContentFigureImage src={image}></ModalContentFigureImage>
+                <ModalContentFigureImage
+                  id="modal-img"
+                  src={image}
+                ></ModalContentFigureImage>
                 <ModalContentFigureCaption>
                   <ModalContentFigureCaptionBar>
                     <ModalContentFigureCaptionBarText>
