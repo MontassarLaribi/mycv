@@ -25,7 +25,7 @@ const Graphic = ({ t }) => {
         </ShadowBox>
         <ShadowBox>
           <CenterImageDiv>
-            <CenterImage src="/images/illustrator.png"></CenterImage>
+            <CenterImage src="/images/Illustrator.png"></CenterImage>
           </CenterImageDiv>
         </ShadowBox>
       </ShadowBoxContainer>
