@@ -63,6 +63,25 @@ const LinkedIn = ({ t }) => {
           </CenterImageDiv>
         </ShadowBox>
       </ShadowBoxContainer>
+      <ShadowBoxContainer>
+        <ShadowBox>
+          <CenterImageDiv>
+            <CenterImage
+              onClick={() =>
+                dispatch(
+                  show({
+                    image: "/images/linkedInNodeJS.png",
+                    caption: t("highlights.linkedIn.3"),
+                  })
+                )
+              }
+              src="/images/linkedInNodeJS.png"
+              alt="NodeJS LinkedIn Badge"
+            ></CenterImage>
+            <ShadowBoxText>{t("highlights.linkedIn.3")}</ShadowBoxText>
+          </CenterImageDiv>
+        </ShadowBox>
+      </ShadowBoxContainer>
     </>
   );
 };
