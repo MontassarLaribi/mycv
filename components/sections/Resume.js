@@ -14,7 +14,6 @@ import {
   FlipText,
   FlipWrapper,
 } from "../styled/components";
-import Link from "next/link";
 import { withTranslation } from "../../i18n";
 
 const Resume = ({ t }) => {
@@ -47,9 +46,13 @@ const Resume = ({ t }) => {
         <ResumeListItem>
           <IcoFontIcon className="icofont-linkedin"></IcoFontIcon>{" "}
           <BoldText>LinkedIn:</BoldText>{" "}
-          <Link href="https://www.linkedin.com/in/montassar-laribi/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/montassar-laribi/"
+          >
             {t("myProfile")}
-          </Link>
+          </a>
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-certificate-alt-1"></IcoFontIcon>{" "}
@@ -58,9 +61,13 @@ const Resume = ({ t }) => {
         <ResumeListItem>
           <IcoFontIcon className="icofont-email"></IcoFontIcon>{" "}
           <BoldText>E-mail:</BoldText>{" "}
-          <Link href="mailto:montassar.laribi@esprit.tn">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:montassar.laribi@esprit.tn"
+          >
             montassar.laribi@esprit.tn
-          </Link>
+          </a>
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-phone"></IcoFontIcon>{" "}
