@@ -5,7 +5,6 @@ import {
   BodyTitlesContainer,
   TitleContainerPrimary,
 } from "../../styled/body";
-import Link from "next/link";
 import { Paragraph, SpanBox } from "../../styled/highlights";
 
 const Website = ({ t }) => {
