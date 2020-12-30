@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "startcustom": "SET NODE_ENV=production && node server.js",
+    "startprod": "SET NODE_ENV=production && node server.js",
     "test": "jest"
   },
   "dependencies": {
