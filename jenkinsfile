@@ -1,0 +1,63 @@
+node {
+    try {
+        stage('Checkout') {
+            sh 'pwd'
+            sh 'whoami'
+            res = sh(script: "test -d ~/workspace/cvpipe/mycvtest/ && echo '1' || echo '0' ", returnStdout: true).trim()
+            if (res == '1') {
+                echo 'repo already cloned'
+            } else {
+                echo 'repo not cloned yet'
+                sh 'git clone git@github.com:MontassarLaribi/mycvtest.git'
+            }
+            dir("mycvtest"){
+            sh 'git checkout preprod'
+            sh 'git pull'
+            }
+            
+        }
+        stage('Environment') {
+            sh 'git --version'
+            echo "Branch: ${env.BRANCH_NAME}"
+            sh 'docker -v'
+            sh 'printenv'
+        }
+        stage('Build Docker test') {
+            dir("mycvtest"){
+            sh 'docker build -t cv-test -f dockerfile.test --no-cache .'
+            }
+        }
+        stage('Docker test') {
+            sh 'docker run --rm -d -p 3000:3000 cv-test'
+            sh "docker exec \$(docker ps|grep cv-test|cut -d' ' -f1) npm run test"
+        }
+        stage('Clean Docker test') {
+            sh "docker stop \$(docker ps|grep cv-test|cut -d' ' -f1)"
+            sh 'docker rmi cv-test'
+        }
+        stage('Stop prod container '){
+            catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                sh 'docker stop \$(docker ps -a -q)'
+            }
+        }
+        stage('Build prod') {
+            dir("mycvtest"){
+                sh 'docker build -t cv-prod -f dockerfile .'
+            }
+        }
+        stage('Start prod') {
+            sh 'docker run -d -p 80:80 -p 443:443 cv-prod'
+        }
+        stage('clean prod') {
+            sh 'docker rmi `docker images --filter dangling=true -q` -f'
+        }
+        stage('clean prod container'){
+            catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                sh 'docker rm $(docker ps -a -q)'
+            }
+        }
+    }
+  catch (err) {
+        throw err
+  }
+}
