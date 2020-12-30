@@ -4,11 +4,11 @@
 FROM node:alpine
 
 # create & set working directory
-RUN mkdir -p /mycvtest
-WORKDIR /mycvtest
+RUN mkdir -p /mycv
+WORKDIR /mycv
 
 # copy source files
-COPY . /mycvtest
+COPY . /mycv
 
 ENV NODE_ENV production
 
