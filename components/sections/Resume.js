@@ -22,6 +22,7 @@ const Resume = ({ t }) => {
       <ProfileImageWrapper>
         <ProfileImageDiv>
           <ProfileImage
+            layout="fill"
             alt="Montassar Laribi"
             src="/images/montassar_laribi.png"
           ></ProfileImage>

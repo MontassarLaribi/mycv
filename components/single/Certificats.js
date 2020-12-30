@@ -37,6 +37,7 @@ const Certificats = ({ t }) => {
                 )
               }
               src="/images/PNL_Montassar_Laribi.png"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("certificats.items.0")}</ShadowBoxText>
           </CenterImageDiv>
@@ -54,6 +55,7 @@ const Certificats = ({ t }) => {
                 )
               }
               src="/images/Soft_Skills_Montassar_Laribi.png"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("certificats.items.1")}</ShadowBoxText>
           </CenterImageDiv>
@@ -73,6 +75,7 @@ const Certificats = ({ t }) => {
                 )
               }
               src="/images/TOT_Montassar_Laribi.png"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("certificats.items.2")}</ShadowBoxText>
           </CenterImageDiv>
@@ -90,6 +93,7 @@ const Certificats = ({ t }) => {
                 )
               }
               src="/images/MOOC_Montassar_Laribi.png"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("certificats.items.3")}</ShadowBoxText>
           </CenterImageDiv>

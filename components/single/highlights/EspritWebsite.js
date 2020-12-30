@@ -44,10 +44,10 @@ const EspritWebsite = ({ t }) => {
       </Paragraph>
       <Paragraph>{t("highlights.espritWebsite.3")}</Paragraph>
       <ShadowBoxContainer>
-        <ShadowBox full={true}>
-          <CenterImageDiv full={true}>
+        <ShadowBox full={"true"}>
+          <CenterImageDiv full={"true"}>
             <CenterImage
-              full={true}
+              full={"true"}
               onClick={() =>
                 dispatch(
                   show({
@@ -58,14 +58,15 @@ const EspritWebsite = ({ t }) => {
               }
               src="/images/pagespeed1.png"
               alt="ESPRIT Website Before"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("before")}</ShadowBoxText>
           </CenterImageDiv>
         </ShadowBox>
-        <ShadowBox full={true}>
-          <CenterImageDiv full={true}>
+        <ShadowBox full={"true"}>
+          <CenterImageDiv full={"true"}>
             <CenterImage
-              full={true}
+              full={"true"}
               onClick={() =>
                 dispatch(
                   show({
@@ -76,6 +77,7 @@ const EspritWebsite = ({ t }) => {
               }
               src="/images/pagespeed2.png"
               alt="ESPRIT Website After"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("after")}</ShadowBoxText>
           </CenterImageDiv>
@@ -95,6 +97,7 @@ const EspritWebsite = ({ t }) => {
               }
               src="/images/pagespeed5.png"
               alt="ESPRIT Website 100% score"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("best")}</ShadowBoxText>
           </CenterImageDiv>
@@ -113,6 +116,7 @@ const EspritWebsite = ({ t }) => {
               <ArticleImage
                 src="/images/medium.png"
                 alt="medium logo"
+                layout="fill"
               ></ArticleImage>
             </ArticleImageWrapper>
             <ArticleContentWrapper>

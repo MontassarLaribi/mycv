@@ -12,7 +12,7 @@ const Highlights = ({ t }) => {
   return (
     <BodySectionContainer>
       <BodySectionFlex>
-        <BodySectionColumn noPad={true} full={true}>
+        <BodySectionColumn noPad={true} full={"true"}>
           <FooterContainer>
             <FooterText>
               ©Copyright, LARIBI Mohamed Montassar {today.getFullYear()}

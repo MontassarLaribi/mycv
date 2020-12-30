@@ -21,7 +21,7 @@ const Highlights = ({ t }) => {
         <BodySubTitle>{t("highlights.title")}</BodySubTitle>
       </TitleContainerSecondary>
       <BodySectionFlex>
-        <BodySectionColumn full={true}>
+        <BodySectionColumn full={"true"}>
           <Website></Website>
           <LinkedIn></LinkedIn>
           <EspritWebsite></EspritWebsite>

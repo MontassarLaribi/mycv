@@ -26,10 +26,10 @@ const LinkedIn = ({ t }) => {
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.linkedIn.0")}</Paragraph>
       <ShadowBoxContainer>
-        <ShadowBox full={true}>
-          <CenterImageDiv full={true}>
+        <ShadowBox full={"true"}>
+          <CenterImageDiv full={"true"}>
             <CenterImage
-              full={true}
+              full={"true"}
               onClick={() =>
                 dispatch(
                   show({
@@ -40,14 +40,15 @@ const LinkedIn = ({ t }) => {
               }
               src="/images/linkedInReact.png"
               alt="React LinkedIn Badge"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("highlights.linkedIn.1")}</ShadowBoxText>
           </CenterImageDiv>
         </ShadowBox>
-        <ShadowBox full={true}>
-          <CenterImageDiv full={true}>
+        <ShadowBox full={"true"}>
+          <CenterImageDiv full={"true"}>
             <CenterImage
-              full={true}
+              full={"true"}
               onClick={() =>
                 dispatch(
                   show({
@@ -58,6 +59,7 @@ const LinkedIn = ({ t }) => {
               }
               src="/images/linkedInJavascript.png"
               alt="Javascript LinkedIn Badge"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("highlights.linkedIn.2")}</ShadowBoxText>
           </CenterImageDiv>
@@ -77,6 +79,7 @@ const LinkedIn = ({ t }) => {
               }
               src="/images/linkedInNodeJS.png"
               alt="NodeJS LinkedIn Badge"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("highlights.linkedIn.3")}</ShadowBoxText>
           </CenterImageDiv>

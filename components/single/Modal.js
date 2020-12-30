@@ -38,6 +38,7 @@ const Modal = ({ showModal }) => {
                 <ModalContentFigureImage
                   id="modal-img"
                   src={image}
+                  layout="fill"
                 ></ModalContentFigureImage>
                 <ModalContentFigureCaption>
                   <ModalContentFigureCaptionBar>

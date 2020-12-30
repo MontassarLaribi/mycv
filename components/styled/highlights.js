@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const Paragraph = styled.p`
   font-size: 0.92em;
@@ -17,8 +18,8 @@ export const SpanBox = styled.span`
 `;
 
 export const ShadowBox = styled.div`
-  width: ${(props) => (props.full === true ? "100%" : "50%")};
-  max-width: ${(props) => (props.full === true ? "auto" : "50%")};
+  width: ${(props) => (props.full === "true" ? "100%" : "50%")};
+  max-width: ${(props) => (props.full === "true" ? "auto" : "50%")};
   position: relative;
   text-align: center;
   display: block;
@@ -52,11 +53,17 @@ export const CenterImageDiv = styled.div`
   max-width: 75%;
   display: flex;
   margin: auto;
+  & > div {
+    position: initial !important;
+  }
 `;
-export const CenterImage = styled.img`
-  filter: ${(props) => (props.invert === true ? "invert(1)" : "invert(0)")};
-  width: 100%;
-  border-radius: 10px;
+export const CenterImage = styled(Image)`
+  filter: ${(props) => (props.invert === "true" ? "invert(1)" : "invert(0)")};
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 10px !important;
+  max-width: 250px !important;
+  position: initial !important;
 `;
 
 export const Article = styled.div`
@@ -83,11 +90,16 @@ export const ArticleImageWrapper = styled.div`
   vertical-align: middle;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  & > div {
+    position: initial !important;
+  }
 `;
 export const ArticleImage = styled.img`
-  display: block;
-  max-width: 100%;
-  filter: ${(props) => (props.noInvert === true ? "invert(0)" : "invert(1)")};
+  width: 100% !important;
+  border-radius: 10px !important;
+  max-width: 250px !important;
+  position: initial !important;
+  filter: ${(props) => (props.noInvert === "true" ? "invert(0)" : "invert(1)")};
 `;
 export const ArticleContentWrapper = styled.div`
   display: table-cell;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const TitleContainerPrimary = styled.div`
   display: inline-block;
@@ -128,7 +129,7 @@ export const BodySectionColumn = styled.div`
   & > .section-title:not(:first-child) {
     margin-top: 30px;
   }
-  width: ${(props) => (props.full === true ? "100%" : "50%")};
+  width: ${(props) => (props.full === "true" ? "100%" : "50%")};
   @media only screen and (max-width: 1024px) {
     width: 100%;
   }
@@ -270,11 +271,16 @@ export const CenterImageDiv = styled.div`
   max-width: 125px;
   display: flex;
   margin: auto;
+  & > div {
+    position: initial !important;
+  }
 `;
-export const CenterImage = styled.img`
-  width: 100%;
-  border-radius: 10px;
-  max-width: 250px;
+export const CenterImage = styled(Image)`
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 10px !important;
+  max-width: 250px !important;
+  position: initial !important;
 `;
 export const ShadowTable = styled.table`
   position: relative;

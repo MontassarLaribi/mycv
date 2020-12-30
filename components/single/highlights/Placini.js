@@ -35,9 +35,10 @@ const Placini = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={true}
+                noInvert={"true"}
                 src="/images/googleplay.png"
                 alt="Maabaadhna logo"
+                layout="fill"
               ></ArticleImage>
             </ArticleImageWrapper>
             <ArticleContentWrapper>

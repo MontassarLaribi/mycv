@@ -32,10 +32,10 @@ const ComCollab = ({ t }) => {
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.comCollab.0")}</Paragraph>
       <ShadowBoxContainer>
-        <ShadowBox full={true}>
-          <CenterImageDiv full={true}>
+        <ShadowBox full={"true"}>
+          <CenterImageDiv full={"true"}>
             <CenterImage
-              full={true}
+              full={"true"}
               onClick={() =>
                 dispatch(
                   show({
@@ -46,14 +46,15 @@ const ComCollab = ({ t }) => {
               }
               src="/images/espritonlinepayment.png"
               alt="ESPRIT Online Payment Banner"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("highlights.comCollab.2")}</ShadowBoxText>
           </CenterImageDiv>
         </ShadowBox>
-        <ShadowBox full={true}>
-          <CenterImageDiv full={true}>
+        <ShadowBox full={"true"}>
+          <CenterImageDiv full={"true"}>
             <CenterImage
-              full={true}
+              full={"true"}
               onClick={() =>
                 dispatch(
                   show({
@@ -64,6 +65,7 @@ const ComCollab = ({ t }) => {
               }
               src="/images/espritrecrute.png"
               alt="ESPRIT Recrute Banner"
+              layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("highlights.comCollab.3")}</ShadowBoxText>
           </CenterImageDiv>
@@ -80,9 +82,10 @@ const ComCollab = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={true}
+                noInvert={"true"}
                 src="/images/espritrecrute.png"
                 alt="Esprit recrute poster"
+                layout="fill"
               ></ArticleImage>
             </ArticleImageWrapper>
             <ArticleContentWrapper>
@@ -102,9 +105,10 @@ const ComCollab = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={true}
+                noInvert={"true"}
                 src="/images/espritonlinepayment.png"
                 alt="ESPRIT online poster"
+                layout="fill"
               ></ArticleImage>
             </ArticleImageWrapper>
             <ArticleContentWrapper>

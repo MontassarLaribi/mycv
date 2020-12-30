@@ -14,6 +14,7 @@ import {
   ArticleTitle,
   Paragraph,
 } from "../../styled/highlights";
+import Image from "next/image";
 
 const Maabaadhna = ({ t }) => {
   return (
@@ -34,9 +35,10 @@ const Maabaadhna = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={true}
+                noInvert={"true"}
                 src="/images/maabaadhna.png"
                 alt="Maabaadhna logo"
+                layout="fill"
               ></ArticleImage>
             </ArticleImageWrapper>
             <ArticleContentWrapper>
@@ -57,9 +59,10 @@ const Maabaadhna = ({ t }) => {
           >
             <CenterImageDiv>
               <CenterImage
-                invert={true}
+                invert={"true"}
                 src="/images/github.png"
                 alt="GitHub Logo"
+                layout="fill"
               ></CenterImage>
               <ShadowBoxText>{t("visitGithub")}</ShadowBoxText>
             </CenterImageDiv>
@@ -111,10 +114,15 @@ const CenterImageDiv = styled.div`
   max-width: 125px;
   display: flex;
   margin: auto;
+  & > div {
+    position: initial !important;
+  }
 `;
-const CenterImage = styled.img`
+const CenterImage = styled(Image)`
   filter: invert(1);
-  width: 100%;
-  border-radius: 10px;
-  max-width: 250px;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 10px !important;
+  max-width: 250px !important;
+  position: initial !important;
 `;

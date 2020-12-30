@@ -6,6 +6,7 @@ import {
   TitleContainerPrimary,
 } from "../../styled/body";
 import { Paragraph, SpanBox } from "../../styled/highlights";
+import Image from "next/image";
 
 const Website = ({ t }) => {
   return (
@@ -45,6 +46,7 @@ const Website = ({ t }) => {
               <CenterImage
                 src="/images/github.png"
                 alt="GitHub Logo"
+                layout="fill"
               ></CenterImage>
               <ShadowBoxText>{t("visitGithub")}</ShadowBoxText>
             </CenterImageDiv>
@@ -96,10 +98,15 @@ const CenterImageDiv = styled.div`
   max-width: 125px;
   display: flex;
   margin: auto;
+  & > div {
+    position: initial !important;
+  }
 `;
-const CenterImage = styled.img`
+const CenterImage = styled(Image)`
   filter: invert(1);
-  width: 100%;
-  border-radius: 10px;
-  max-width: 250px;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 10px !important;
+  max-width: 250px !important;
+  position: initial !important;
 `;

@@ -23,6 +23,7 @@ const Graphic = ({ t }) => {
             <CenterImage
               alt="Photoshop logo"
               src="/images/photoshop.png"
+              layout="fill"
             ></CenterImage>
           </CenterImageDiv>
         </ShadowBox>
@@ -31,6 +32,7 @@ const Graphic = ({ t }) => {
             <CenterImage
               alt="Illustrator logo"
               src="/images/Illustrator.png"
+              layout="fill"
             ></CenterImage>
           </CenterImageDiv>
         </ShadowBox>

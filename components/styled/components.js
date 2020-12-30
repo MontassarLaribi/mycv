@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Image from "next/image";
 export const MainApp = styled.div`
   display: flex;
   align-content: center;
@@ -93,12 +93,16 @@ export const ProfileImageWrapper = styled.div`
 export const ProfileImageDiv = styled.div`
   position: relative;
   max-width: 250px;
+  & > div {
+    position: initial !important;
+  }
 `;
-export const ProfileImage = styled.img`
-  width: 100%;
-  height: 100%;
+export const ProfileImage = styled(Image)`
+  width: 100% !important;
+  height: 100% !important;
   border-radius: 10px;
-  border: 1px solid #ff9800;
+  border: 1px solid #ff9800 !important;
+  position: initial !important;
   max-width: 250px;
 `;
 
