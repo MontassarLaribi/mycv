@@ -87,10 +87,19 @@ const Home = ({ t }) => {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#000000" />
-        <meta property="og:title" content="" />
-        <meta name="description" content="" />
-        <meta property="og:description" content="" />
-        <meta name="keywords" content="" />
+        <meta property="og:title" content="Montassar Laribi" />
+        <meta
+          name="description"
+          content="Ingénieur full-stack js et enseignant à ESPRIT, spécialisé dans les technologies javascript tel que React, NodeJS."
+        />
+        <meta
+          property="og:description"
+          content="Ingénieur full-stack js et enseignant à ESPRIT, spécialisé dans les technologies javascript tel que React, NodeJS."
+        />
+        <meta
+          name="keywords"
+          content="ingénieur, fullstack, full-stack, javascript, js, react, puppeteer, jest, cv, france, toulouse, ci/cd, devops, ssr"
+        />
         <meta property="og:url" content={`https://montassarlaribi.com`} />
         <link rel="canonical" href="https://montassarlaribi.com" />
         <meta property="og:type" content="website" />
