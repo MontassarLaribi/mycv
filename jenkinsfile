@@ -3,14 +3,14 @@ node {
         stage('Checkout') {
             sh 'pwd'
             sh 'whoami'
-            res = sh(script: "test -d ~/workspace/cvpipe/mycvtest/ && echo '1' || echo '0' ", returnStdout: true).trim()
+            res = sh(script: "test -d ~/workspace/cvpipe/mycv/ && echo '1' || echo '0' ", returnStdout: true).trim()
             if (res == '1') {
                 echo 'repo already cloned'
             } else {
                 echo 'repo not cloned yet'
-                sh 'git clone git@github.com:MontassarLaribi/mycvtest.git'
+                sh 'git clone git@github.com:MontassarLaribi/mycv.git'
             }
-            dir("mycvtest"){
+            dir("mycv"){
             sh 'git checkout preprod'
             sh 'git pull'
             }
@@ -23,7 +23,7 @@ node {
             sh 'printenv'
         }
         stage('Build Docker test') {
-            dir("mycvtest"){
+            dir("mycv"){
             sh 'docker build -t cv-test -f dockerfile.test --no-cache .'
             }
         }
@@ -41,7 +41,7 @@ node {
             }
         }
         stage('Build prod') {
-            dir("mycvtest"){
+            dir("mycv"){
                 sh 'docker build -t cv-prod -f dockerfile .'
             }
         }
