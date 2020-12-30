@@ -26,6 +26,7 @@ const Certificats = ({ t }) => {
         <ShadowBox zoomable={true}>
           <CenterImageDiv>
             <CenterImage
+              alt="Certificat PNL Montassar Laribi"
               id="pnl"
               onClick={() =>
                 dispatch(
@@ -43,6 +44,7 @@ const Certificats = ({ t }) => {
         <ShadowBox zoomable={true}>
           <CenterImageDiv>
             <CenterImage
+              alt="Certificat Soft Skills Montassar Laribi"
               onClick={() =>
                 dispatch(
                   show({
@@ -61,6 +63,7 @@ const Certificats = ({ t }) => {
         <ShadowBox zoomable={true}>
           <CenterImageDiv>
             <CenterImage
+              alt="Certificat TOT Montassar Laribi"
               onClick={() =>
                 dispatch(
                   show({
@@ -77,6 +80,7 @@ const Certificats = ({ t }) => {
         <ShadowBox zoomable={true}>
           <CenterImageDiv>
             <CenterImage
+              alt="Certificat MOOC Montassar Laribi"
               onClick={() =>
                 dispatch(
                   show({

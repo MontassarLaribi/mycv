@@ -20,12 +20,18 @@ const Graphic = ({ t }) => {
       <ShadowBoxContainer>
         <ShadowBox>
           <CenterImageDiv>
-            <CenterImage src="/images/photoshop.png"></CenterImage>
+            <CenterImage
+              alt="Photoshop logo"
+              src="/images/photoshop.png"
+            ></CenterImage>
           </CenterImageDiv>
         </ShadowBox>
         <ShadowBox>
           <CenterImageDiv>
-            <CenterImage src="/images/Illustrator.png"></CenterImage>
+            <CenterImage
+              alt="Illustrator logo"
+              src="/images/Illustrator.png"
+            ></CenterImage>
           </CenterImageDiv>
         </ShadowBox>
       </ShadowBoxContainer>
