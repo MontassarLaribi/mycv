@@ -23,24 +23,51 @@ const Teaching = ({ t }) => {
         <BodySectionColumn>
           <Paragraph>{t("highlights.teaching.2")}</Paragraph>
           <List>
-            <ListItem>ReactJS</ListItem>
-            <ListItem>JavaScript</ListItem>
-            <ListItem>JQuery</ListItem>
-            <ListItem>HTML5/CSS</ListItem>
-            <ListItem>SOA (Service Oriented Architecture)</ListItem>
-            <ListItem>NodeJS</ListItem>
-            <ListItem>Team coach for more than 20+ Teams</ListItem>
+            <ListItem>
+              <span></span>
+              ReactJS
+            </ListItem>
+            <ListItem>
+              <span></span>JavaScript
+            </ListItem>
+            <ListItem>
+              <span></span>JQuery
+            </ListItem>
+            <ListItem>
+              <span></span>HTML5/CSS
+            </ListItem>
+            <ListItem>
+              <span></span>SOA (Service Oriented Architecture)
+            </ListItem>
+            <ListItem>
+              <span></span>NodeJS
+            </ListItem>
+            <ListItem>
+              <span></span>Team coach for more than 20+ Teams
+            </ListItem>
           </List>
         </BodySectionColumn>
         <BodySectionColumn>
           <Paragraph>{t("highlights.teaching.3")}</Paragraph>
           <List>
-            <ListItem>Problem Solving</ListItem>
-            <ListItem>Team management</ListItem>
-            <ListItem>Information processing</ListItem>
-            <ListItem>Pedagogy & Andragogy</ListItem>
-            <ListItem>Various Soft-Skills</ListItem>
-            <ListItem>Time management</ListItem>
+            <ListItem>
+              <span></span>Problem Solving
+            </ListItem>
+            <ListItem>
+              <span></span>Team management
+            </ListItem>
+            <ListItem>
+              <span></span>Information processing
+            </ListItem>
+            <ListItem>
+              <span></span>Pedagogy & Andragogy
+            </ListItem>
+            <ListItem>
+              <span></span>Various Soft-Skills
+            </ListItem>
+            <ListItem>
+              <span></span>Time management
+            </ListItem>
           </List>
         </BodySectionColumn>
       </BodySectionFlex>

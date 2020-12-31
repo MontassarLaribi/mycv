@@ -263,6 +263,8 @@ export const ShadowBoxText = styled.span`
   font-size: small;
   color: #bdbdbd;
   margin: 10px -30px 0;
+  width: 100%;
+  align-self: center;
 `;
 
 export const CenterImageDiv = styled.div`

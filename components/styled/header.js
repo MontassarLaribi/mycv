@@ -182,17 +182,20 @@ export const ListItem = styled.li`
     opacity: 0.25;
     z-index: 0;
   }
-  ::after {
-    content: "";
-    display: block;
-    position: absolute;
-    margin-top: -14px;
-    width: 6px;
-    height: 6px;
-    margin-left: -16.5px;
-    background-color: #222;
-    border-radius: 5px;
-    border: 2px solid #04b4e0;
-    z-index: 1;
+
+  & > span {
+    ::before {
+      content: "";
+      display: block;
+      position: absolute;
+      margin-top: 5px;
+      width: 6px;
+      height: 6px;
+      margin-left: -16.5px;
+      background-color: #222;
+      border-radius: 5px;
+      border: 2px solid #04b4e0;
+      z-index: 1;
+    }
   }
 `;
