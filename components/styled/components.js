@@ -131,7 +131,7 @@ export const ResumeDescription = styled.p`
 `;
 
 export const ThemeColoredText = styled.span`
-  color: #04b4e0;
+  color: rgb(30 210 255);
 `;
 export const ThemeColoredTextSecondary = styled.span`
   color: #ff9800;

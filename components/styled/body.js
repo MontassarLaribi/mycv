@@ -367,7 +367,7 @@ export const TimeLineSecondaryItemPeriod = styled.h5`
 export const TimeLineSecondaryItemCompany = styled.span`
   display: inline-block;
   font-size: 12px;
-  color: #aaa;
+  color: rgb(255 255 255);
   opacity: 0.7;
   margin-left: 5px;
 `;

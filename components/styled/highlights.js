@@ -117,5 +117,6 @@ export const ArticleTitle = styled.h4`
 `;
 export const ArticleText = styled.span`
   font-size: 0.9em;
-  color: #777;
+  color: rgb(255 255 255);
+  opacity: 0.7;
 `;
