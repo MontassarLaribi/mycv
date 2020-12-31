@@ -23,37 +23,41 @@ const Certificats = ({ t }) => {
         </TitleContainerPrimary>
       </BodyTitlesContainer>
       <ShadowBoxContainer>
-        <ShadowBox zoomable={true}>
-          <CenterImageDiv>
+        <ShadowBox
+          id="pnl"
+          onClick={() =>
+            dispatch(
+              show({
+                image: "/images/PNL_Montassar_Laribi.png",
+                caption: t("certificats.items.0"),
+              })
+            )
+          }
+          zoomable={true}
+        >
+          <CenterImageDiv id="scroll-pnl">
             <CenterImage
               alt="Certificat PNL Montassar Laribi"
-              id="pnl"
-              onClick={() =>
-                dispatch(
-                  show({
-                    image: "/images/PNL_Montassar_Laribi.png",
-                    caption: t("certificats.items.0"),
-                  })
-                )
-              }
               src="/images/PNL_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("certificats.items.0")}</ShadowBoxText>
           </CenterImageDiv>
         </ShadowBox>
-        <ShadowBox zoomable={true}>
+        <ShadowBox
+          onClick={() =>
+            dispatch(
+              show({
+                image: "/images/Soft_Skills_Montassar_Laribi.png",
+                caption: t("certificats.items.1"),
+              })
+            )
+          }
+          zoomable={true}
+        >
           <CenterImageDiv>
             <CenterImage
               alt="Certificat Soft Skills Montassar Laribi"
-              onClick={() =>
-                dispatch(
-                  show({
-                    image: "/images/Soft_Skills_Montassar_Laribi.png",
-                    caption: t("certificats.items.1"),
-                  })
-                )
-              }
               src="/images/Soft_Skills_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
@@ -62,36 +66,40 @@ const Certificats = ({ t }) => {
         </ShadowBox>
       </ShadowBoxContainer>
       <ShadowBoxContainer>
-        <ShadowBox zoomable={true}>
+        <ShadowBox
+          onClick={() =>
+            dispatch(
+              show({
+                image: "/images/TOT_Montassar_Laribi.png",
+                caption: t("certificats.items.2"),
+              })
+            )
+          }
+          zoomable={true}
+        >
           <CenterImageDiv>
             <CenterImage
               alt="Certificat TOT Montassar Laribi"
-              onClick={() =>
-                dispatch(
-                  show({
-                    image: "/images/TOT_Montassar_Laribi.png",
-                    caption: t("certificats.items.2"),
-                  })
-                )
-              }
               src="/images/TOT_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
             <ShadowBoxText>{t("certificats.items.2")}</ShadowBoxText>
           </CenterImageDiv>
         </ShadowBox>
-        <ShadowBox zoomable={true}>
+        <ShadowBox
+          onClick={() =>
+            dispatch(
+              show({
+                image: "/images/MOOC_Montassar_Laribi.png",
+                caption: t("certificats.items.3"),
+              })
+            )
+          }
+          zoomable={true}
+        >
           <CenterImageDiv>
             <CenterImage
               alt="Certificat MOOC Montassar Laribi"
-              onClick={() =>
-                dispatch(
-                  show({
-                    image: "/images/MOOC_Montassar_Laribi.png",
-                    caption: t("certificats.items.3"),
-                  })
-                )
-              }
               src="/images/MOOC_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
