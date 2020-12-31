@@ -1,6 +1,11 @@
 import { I18nContext } from "next-i18next";
 import { useContext } from "react";
-import { ToggleInput, ToggleSpan, ToggleWrapper } from "../styled/header";
+import {
+  ToggleInput,
+  ToggleSpan,
+  ToggleWrapper,
+  LanguageLabel,
+} from "../styled/header";
 import { i18n } from "../../i18n";
 export default function LanguageToggle() {
   const {
@@ -9,6 +14,7 @@ export default function LanguageToggle() {
 
   return (
     <ToggleWrapper className={language === "fr" && "active"}>
+      <LanguageLabel htmlFor="toggle-language">Change language</LanguageLabel>
       <ToggleInput
         id="toggle-language"
         onClick={() =>

@@ -200,3 +200,8 @@ export const ListItem = styled.li`
     }
   }
 `;
+export const LanguageLabel = styled.label`
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+`;
