@@ -74,6 +74,7 @@ export const HeaderTitleItem = styled.li`
   }
   @media only screen and (max-width: 1024px) {
     font-size: small;
+    margin-right: 10px;
   }
 `;
 export const ToggleWrapper = styled.div`

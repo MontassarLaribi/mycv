@@ -145,12 +145,13 @@ export const BodySectionFlex = styled.div`
 export const SkillsList = styled.ul`
   & > li {
     display: inline-block;
-    background-color: #04b4e0;
+    background-color: #03718c;
     border-radius: 3px;
     color: #fff;
     padding: 5px 10px;
     margin: 3px 2px;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 500;
   }
 `;
 export const SkillsListItem = styled.li``;
@@ -258,11 +259,11 @@ export const ShadowBox = styled.div`
 `;
 export const ShadowBoxContainer = styled.div`
   display: flex;
+  text-align: center;
 `;
 export const ShadowBoxText = styled.span`
   font-size: small;
   color: #bdbdbd;
-  margin: 10px -30px 0;
   width: 100%;
   align-self: center;
 `;
@@ -273,6 +274,7 @@ export const CenterImageDiv = styled.div`
   max-width: 125px;
   display: flex;
   margin: auto;
+  margin-bottom: 10px;
   & > div {
     position: initial !important;
   }

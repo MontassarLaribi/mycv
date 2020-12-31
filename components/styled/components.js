@@ -163,7 +163,7 @@ export const DownloadButton = styled.button`
   max-width: 200px;
   text-transform: uppercase;
   color: white;
-  background-color: #04b4e0;
+  background-color: #03718c;
   border: 0;
   border-radius: 5px;
   padding: 10px;
@@ -171,6 +171,7 @@ export const DownloadButton = styled.button`
   font-weight: bold;
   letter-spacing: 2px;
   cursor: pointer;
+  box-shadow: 0px 0px 2px 2px #ff98008c;
 `;
 
 export const FlipWrapper = styled.div`

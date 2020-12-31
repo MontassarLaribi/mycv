@@ -9,12 +9,13 @@ export const Paragraph = styled.p`
 
 export const SpanBox = styled.span`
   display: inline-block;
-  background-color: #04b4e0;
+  background-color: #03718c;
   border-radius: 3px;
   color: #fff;
   padding: 5px 10px;
   margin: 3px 2px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 500;
 `;
 
 export const ShadowBox = styled.div`

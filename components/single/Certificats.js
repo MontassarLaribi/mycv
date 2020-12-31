@@ -41,8 +41,8 @@ const Certificats = ({ t }) => {
               src="/images/PNL_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
-            <ShadowBoxText>{t("certificats.items.0")}</ShadowBoxText>
           </CenterImageDiv>
+          <ShadowBoxText>{t("certificats.items.0")}</ShadowBoxText>
         </ShadowBox>
         <ShadowBox
           onClick={() =>
@@ -61,8 +61,8 @@ const Certificats = ({ t }) => {
               src="/images/Soft_Skills_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
-            <ShadowBoxText>{t("certificats.items.1")}</ShadowBoxText>
           </CenterImageDiv>
+          <ShadowBoxText>{t("certificats.items.1")}</ShadowBoxText>
         </ShadowBox>
       </ShadowBoxContainer>
       <ShadowBoxContainer>
@@ -83,8 +83,8 @@ const Certificats = ({ t }) => {
               src="/images/TOT_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
-            <ShadowBoxText>{t("certificats.items.2")}</ShadowBoxText>
           </CenterImageDiv>
+          <ShadowBoxText>{t("certificats.items.2")}</ShadowBoxText>
         </ShadowBox>
         <ShadowBox
           onClick={() =>
@@ -103,8 +103,8 @@ const Certificats = ({ t }) => {
               src="/images/MOOC_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
-            <ShadowBoxText>{t("certificats.items.3")}</ShadowBoxText>
           </CenterImageDiv>
+          <ShadowBoxText>{t("certificats.items.3")}</ShadowBoxText>
         </ShadowBox>
       </ShadowBoxContainer>
     </>
