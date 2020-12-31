@@ -171,7 +171,7 @@ export const TimeLineLeft = styled.div`
   text-align: right;
   vertical-align: top;
 `;
-export const TimeLineLeftPeriod = styled.h5`
+export const TimeLineLeftPeriod = styled.h4`
   color: #aaa;
   margin: 3px 0;
   font-size: 14px;
