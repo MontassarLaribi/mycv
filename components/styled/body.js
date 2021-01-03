@@ -108,7 +108,7 @@ export const BodyTitle = styled.h2`
   margin-top: 0;
 `;
 
-export const BodySubTitle = styled.h3`
+export const BodySubTitle = styled.h1`
   color: #ff9800;
   text-align: left;
   text-transform: uppercase;
@@ -171,7 +171,7 @@ export const TimeLineLeft = styled.div`
   text-align: right;
   vertical-align: top;
 `;
-export const TimeLineLeftPeriod = styled.h4`
+export const TimeLineLeftPeriod = styled.h3`
   color: #aaa;
   margin: 3px 0;
   font-size: 14px;
@@ -350,7 +350,7 @@ export const TimeLineSecondaryItem = styled.div`
     bottom: 3px;
   }
 `;
-export const TimeLineSecondaryItemPeriod = styled.h5`
+export const TimeLineSecondaryItemPeriod = styled.h3`
   margin-top: 0;
   display: inline-block;
   position: relative;

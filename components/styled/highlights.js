@@ -110,7 +110,7 @@ export const ArticleContentWrapper = styled.div`
   padding: 20px 25px;
   vertical-align: middle;
 `;
-export const ArticleTitle = styled.h5`
+export const ArticleTitle = styled.h3`
   font-size: 16px;
   margin: 0 0 5px;
   color: white;
