@@ -35,9 +35,15 @@ node {
             sh "docker stop \$(docker ps|grep cv-test|cut -d' ' -f1)"
             sh 'docker rmi cv-test'
         }
-        stage('Stop prod container '){
-            catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                sh 'docker stop \$(docker ps -a -q)'
+        stage('Get certificats') {
+            dir("mycv"){
+                sh 'mkdir -p cert'
+                sh 'cp ~/cert/* ~/workspace/cvpipe/mycv/cert'
+                sh 'ls'
+                dir('public'){
+                    sh 'mkdir -p .well-known/acme-challenge'
+                    sh 'cp ~/certsecret/* ~/workspace/cvpipe/mycv/public/.well-known/acme-challenge'
+                }
             }
         }
         stage('Build prod') {
@@ -45,11 +51,22 @@ node {
                 sh 'docker build -t cv-prod -f dockerfile .'
             }
         }
+        stage('Stop prod container '){
+            catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                sh 'docker stop \$(docker ps -a -q)'
+            }
+        }
         stage('Start prod') {
             sh 'docker run -d -p 80:80 -p 443:443 cv-prod'
         }
         stage('clean prod') {
             sh 'docker rmi `docker images --filter dangling=true -q` -f'
+        }
+        stage('Delete certificats') {
+            dir("mycv"){
+                sh 'rm -rf ./cert'
+                sh 'ls'
+            }
         }
         stage('clean prod container'){
             catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {

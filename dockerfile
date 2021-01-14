@@ -5,6 +5,7 @@ FROM node:alpine
 
 # create & set working directory
 RUN mkdir -p /mycv
+
 WORKDIR /mycv
 
 # copy source files
@@ -17,8 +18,8 @@ RUN npm install
 
 # start app
 RUN npm run build
-EXPOSE 3000
-EXPOSE 3443
+
 EXPOSE 80
 EXPOSE 443
+
 CMD npm run startprod
