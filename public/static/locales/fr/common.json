@@ -49,43 +49,43 @@
     "title": "Experience",
     "items": [
       {
-        "period": "January 2020 - Now",
+        "period": "Janvier 2020 - Présent",
         "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
         "title": "Professeur Universitaire, Département WEB",
         "description": "J'enseigne à ESPRIT dans le département web où je coach et encadre des équipes d'ingénieurs dans leurs projets les plus importants. J'enseigne également l'SOA (Service Oriented Architecture), HTML / CSS / JavaScript, NodeJS et ReactJS"
       },
       {
-        "period": "July 2019 - Now",
+        "period": "Juillet 2019 - Présent",
         "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
         "title": "Developpeur Web Full-Stack",
         "description": "Cela a commencé comme mon stage de fin d'études obligatoire puis j'ai été recruté en tant que développeur et professeur à l'université. Mon premier projet a été le site Web de l'université www.esprit.tn réalisé avec React et NestJS."
       },
       {
-        "period": "September 2019 - February 2020",
+        "period": "Septembre 2019 - Février 2020",
         "school": "Travailleur indépendant",
         "title": "Developpeur Web Full-Stack",
         "description": "J'ai démarré une petite entreprise \"Corticali\" où j'ai pris des commissions et créé des sites Web et des applications pour divers clients."
       },
       {
-        "period": "June 2017 - November 2018",
+        "period": "Juin 2017 - Novembre 2018",
         "school": "MediaSoft",
         "title": "Developpeur Full-Stack .NET/C#",
         "description": "Conception, développement et test d'une application web ERP, ainsi que du consulting sur des ERP tels que Sage et Ciel. J'ai également géré et encadré des stagiaires."
       },
       {
-        "period": "January 2017 - May 2018",
+        "period": "Janvier 2017 - Mai 2018",
         "school": "MediaSoft",
         "title": "Projet PFE .NET/XAMARIN",
         "description": "J'ai réalisé un prototype pour un ERP travaillant sur un stack .NET/XAMARIN, en passant par toutes les phases du projet."
       },
       {
-        "period": "June 2016 - August 2016",
+        "period": "Juin 2016 - Aôut 2016",
         "school": "MediaSoft",
         "title": "Stage d'été ERP/BI",
         "description": "Création de tableaux de bord et de vues de rapport dynamiques avec une variété d'outils tels que Business Objects, Excel et SQL Server Reporting-Tools."
       },
       {
-        "period": "June 2015 - July 2015",
+        "period": "Juin 2015 - Juillet 2015",
         "school": "MediaSoft",
         "title": "Software development Internship",
         "description": "J'ai créé un service utilisant C # qui synchronise plusieurs bases de données, en gérant les doublons et conflits."
