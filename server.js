@@ -8,10 +8,11 @@ const ports = {
   http: 80,
   https: 443,
 };
-const dev = process.env.NODE_ENV !== "production";
-const app = next({ dev });
+// const dev = process.env.NODE_ENV !== "production";
+const app = next({ dev: false });
 const handle = app.getRequestHandler();
 const server = express();
+const httpsApp = express();
 
 const options = {
   key: fs.readFileSync("./cert/localhost.key"),
@@ -19,9 +20,24 @@ const options = {
 };
 
 app.prepare().then(() => {
-  server.all("*", (req, res) => {
-    return handle(req, res);
+  httpsApp.get("*", (req, res) => handle(req, res));
+
+  server.get("*", (req, res) => {
+    res.writeHead(302, {
+      Location: "https://" + req.headers.host + req.url,
+    });
+    res.end();
   });
-  http.createServer(server).listen(ports.http,'0.0.0.0');
-  https.createServer(options, server).listen(ports.https,'0.0.0.0');
+
+  https
+    .createServer(options, httpsApp)
+    .listen(ports.https, "0.0.0.0", (err) => {
+      if (err) throw err;
+      console.log(`> HTTPS Ready on https://localhost:${ports.https}`);
+    });
+
+  http.createServer(server).listen(ports.http, "0.0.0.0", (err) => {
+    if (err) throw err;
+    console.log(`> HTTP Ready on http://localhost:${ports.http}`);
+  });
 });
