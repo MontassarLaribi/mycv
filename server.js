@@ -20,7 +20,7 @@ const httpsApp = express();
 // };
 
 app.prepare().then(() => {
-  httpsApp.get("*", (req, res) => handle(req, res));
+  server.get("*", (req, res) => handle(req, res));
 
   // server.get("*", (req, res) => {
   //   res.writeHead(302, {
