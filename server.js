@@ -22,12 +22,12 @@ const options = {
 app.prepare().then(() => {
   httpsApp.get("*", (req, res) => handle(req, res));
 
-  server.get("*", (req, res) => {
-    res.writeHead(302, {
-      Location: "https://" + req.headers.host + req.url,
-    });
-    res.end();
-  });
+  // server.get("*", (req, res) => {
+  //   res.writeHead(302, {
+  //     Location: "https://" + req.headers.host + req.url,
+  //   });
+  //   res.end();
+  // });
 
   https
     .createServer(options, httpsApp)
