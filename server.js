@@ -29,12 +29,12 @@ app.prepare().then(() => {
   //   res.end();
   // });
 
-  https
-    .createServer(options, httpsApp)
-    .listen(ports.https, "0.0.0.0", (err) => {
-      if (err) throw err;
-      console.log(`> HTTPS Ready on https://localhost:${ports.https}`);
-    });
+  // https
+  //   .createServer(options, httpsApp)
+  //   .listen(ports.https, "0.0.0.0", (err) => {
+  //     if (err) throw err;
+  //     console.log(`> HTTPS Ready on https://localhost:${ports.https}`);
+  //   });
 
   http.createServer(server).listen(ports.http, "0.0.0.0", (err) => {
     if (err) throw err;
