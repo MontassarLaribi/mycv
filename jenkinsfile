@@ -62,12 +62,12 @@ node {
         stage('clean prod') {
             sh 'docker rmi `docker images --filter dangling=true -q` -f'
         }
-        stage('Delete certificats') {
-            dir("mycv"){
-                sh 'rm -rf ./cert'
-                sh 'ls'
-            }
-        }
+        // stage('Delete certificats') {
+        //     dir("mycv"){
+        //         sh 'rm -rf ./cert'
+        //         sh 'ls'
+        //     }
+        // }
         stage('clean prod container'){
             catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
                 sh 'docker rm $(docker ps -a -q)'
