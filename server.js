@@ -14,10 +14,10 @@ const handle = app.getRequestHandler();
 const server = express();
 const httpsApp = express();
 
-const options = {
-  key: fs.readFileSync("./cert/localhost.key"),
-  cert: fs.readFileSync("./cert/localhost.crt"),
-};
+// const options = {
+//   key: fs.readFileSync("./cert/localhost.key"),
+//   cert: fs.readFileSync("./cert/localhost.crt"),
+// };
 
 app.prepare().then(() => {
   httpsApp.get("*", (req, res) => handle(req, res));
