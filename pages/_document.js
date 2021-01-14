@@ -6,7 +6,6 @@ export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
-
     try {
       ctx.renderPage = () =>
         originalRenderPage({
@@ -36,9 +35,25 @@ export default class MyDocument extends Document {
 
   render() {
     const { lng } = this.props;
+    const GA_ID = process.env.GOOGLE_ANALYTICS_ID;
     return (
       <Html lang={lng}>
-        <Head></Head>
+        <Head>
+          <script
+            async
+            src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+        `,
+            }}
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
