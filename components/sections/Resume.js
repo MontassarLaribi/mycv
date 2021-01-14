@@ -75,11 +75,14 @@ const Resume = ({ t }) => {
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-phone"></IcoFontIcon>{" "}
-          <BoldText>{t("phone")}:</BoldText> +33 xxx xxxxx xx
+          <BoldText>{t("phone")}:</BoldText>{" "}
+          <a target="_blank" rel="noopener noreferrer" href="tel:+21627151438">
+            +21627151438
+          </a>
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-brand-whatsapp"></IcoFontIcon>{" "}
-          <BoldText>Whatsapp:</BoldText> +33 xxx xxxxx xx
+          <BoldText>Whatsapp:</BoldText> +21627151438
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-ui-calendar"></IcoFontIcon>{" "}
