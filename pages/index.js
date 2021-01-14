@@ -101,7 +101,7 @@ const Home = ({ t }) => {
           content="ingénieur, fullstack, full-stack, javascript, js, react, puppeteer, jest, cv, france, toulouse, ci/cd, devops, ssr"
         />
         <meta property="og:url" content={`https://montassarlaribi.com`} />
-        <link rel="canonical" href="https://montassarlaribi.com" />
+        <link rel="canonical" href="https://montassarlaribi.com/fr" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/images/montassar_laribi.png" />
         <meta
