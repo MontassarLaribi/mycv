@@ -15,9 +15,9 @@ const server = express();
 const httpsApp = express();
 
 const options = {
-  key: fs.readFileSync("/etc/letsencrypt/live/montassarlaribi.com/privkey.pem"),
-  cert: fs.readFileSync("/etc/letsencrypt/live/montassarlaribi.com/cert.pem"),
-  ca: fs.readFileSync("/etc/letsencrypt/live/montassarlaribi.com/chain.pem"),
+  key: fs.readFileSync("/cert/privkey.pem"),
+  cert: fs.readFileSync("/cert/cert.pem"),
+  ca: fs.readFileSync("/cert/chain.pem"),
 };
 
 app.prepare().then(() => {
