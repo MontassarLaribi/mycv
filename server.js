@@ -15,9 +15,9 @@ const server = express();
 const httpsApp = express();
 
 const options = {
-  key: fs.readFileSync("/cert/privkey1.pem"),
-  cert: fs.readFileSync("/cert/cert1.pem"),
-  ca: fs.readFileSync("/cert/chain1.pem"),
+  key: fs.readFileSync("./cert/privkey1.pem"),
+  cert: fs.readFileSync("./cert/cert1.pem"),
+  ca: fs.readFileSync("./cert/chain1.pem"),
 };
 
 app.prepare().then(() => {
