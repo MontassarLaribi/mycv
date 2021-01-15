@@ -164,7 +164,7 @@
     ],
     "placini": [
       "Comme je suis violoniste et régisseur à l'Orchestre Symfony de Carthage (CSO), j'ai fait une proposition au maestro, de faire une application qui aiderait notre public à trouver plus facilement sa place au Théâtre Municipal de Tunis.",
-      "The App was made with Ionic/Angular, and it is used by our audience. It will guide you to your place with voice assitance, you will also get notified of our new concerts and such."
+      "L'application à été implementé avec Angular/Ionic, elle est utilisé par notre publique. En utilisant une assitance vocale, elle vous guidera vers votre place au théatre, et vous recevez aussi des notifications a propos de nos nouveaux concerts."
     ],
     "comCollab": [
       "Quand nous étions sur le point de déployer le site Web d'ESPRIT, beaucoup de contenu que nous avions, a dû être repensé pour correspondre à la nouvelle charte graphique. Et beaucoup de nouveau contenu a dû être créé.",
