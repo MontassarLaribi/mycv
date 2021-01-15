@@ -97,9 +97,10 @@ export const ArticleImageWrapper = styled.div`
     position: initial !important;
   }
 `;
-export const ArticleImage = styled.img`
+export const ArticleImage = styled(Image)`
   width: 100% !important;
   border-radius: 10px !important;
+  height: 100% !important;
   max-width: 250px !important;
   position: initial !important;
   filter: ${(props) => (props.noInvert === "true" ? "invert(0)" : "invert(1)")};
