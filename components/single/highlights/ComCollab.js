@@ -82,7 +82,7 @@ const ComCollab = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={"true"}
+                noinvert={"true"}
                 src="/images/espritrecrute.png"
                 alt="Esprit recrute poster"
                 layout="fill"
@@ -105,7 +105,7 @@ const ComCollab = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={"true"}
+                noinvert={"true"}
                 src="/images/espritonlinepayment.png"
                 alt="ESPRIT online poster"
                 layout="fill"

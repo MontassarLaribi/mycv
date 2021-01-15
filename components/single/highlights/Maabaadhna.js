@@ -35,7 +35,7 @@ const Maabaadhna = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                noInvert={"true"}
+                noinvert={"true"}
                 src="/images/maabaadhna.png"
                 alt="Maabaadhna logo"
                 layout="fill"

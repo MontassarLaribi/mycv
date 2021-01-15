@@ -103,7 +103,7 @@ export const ArticleImage = styled(Image)`
   height: 100% !important;
   max-width: 250px !important;
   position: initial !important;
-  filter: ${(props) => (props.noInvert === "true" ? "invert(0)" : "invert(1)")};
+  filter: ${(props) => (props.noinvert === "true" ? "invert(0)" : "invert(1)")};
 `;
 export const ArticleContentWrapper = styled.div`
   display: table-cell;
