@@ -7,7 +7,7 @@
   "Im": "et je suis un ",
   "fullstackengineer": "Ingénieur Full-Stack JS",
   "professor": "Professeur Universitaire",
-  "bioDescription": "J'ai plus de 2 ans d'expérience dans la conception, le développement, les tests et le déploiement d'applications Web créer à partir de zéro. Capacité éprouvée à optimiser les performances Web et à mettre en œuvre des solutions SSR prêtes à l'emploi. Et aussi 1+ an d'expérience en tant que professeur d'université où j'encadre principalement des équipes de futurs ingénieurs dans leurs projets universitaires les plus importants. J'enseigner les technologies Web de base et avancées.",
+  "bioDescription": "J'ai plus de 2 ans d'expérience dans la conception, le développement, les tests et le déploiement d'applications Web créer à partir de zéro. Capacité éprouvée à optimiser les performances Web et à mettre en œuvre des solutions SSR prêtes à l'emploi. Et aussi 1+ an d'expérience en tant que professeur d'université où j'encadre principalement des équipes de futurs ingénieurs dans leurs projets universitaires les plus importants. J'enseigne les technologies Web de base et avancées.",
   "downloadCV": "Télécharger mon CV",
   "myProfile": "Mon Profile",
   "degree": "Diplôme",
@@ -164,7 +164,7 @@
     ],
     "placini": [
       "Comme je suis violoniste et régisseur à l'Orchestre Symfony de Carthage (CSO), j'ai fait une proposition au maestro, de faire une application qui aiderait notre public à trouver plus facilement sa place au Théâtre Municipal de Tunis.",
-      "L'application à été implémenté avec Angular/Ionic, elle est utilisé par notre publique. En utilisant une assistance vocale, elle vous guidera vers votre place au théâtre, et vous recevez aussi des notifications a propos de nos nouveaux concerts."
+      "L'application a été implémenté avec Angular/Ionic, elle est utilisée par notre publique. En utilisant une assistance vocale, elle vous guidera vers votre place au théâtre, et vous recevez aussi des notifications à propos de nos nouveaux concerts."
     ],
     "comCollab": [
       "Quand nous étions sur le point de déployer le site Web d'ESPRIT, beaucoup de contenu que nous avions, a dû être repensé pour correspondre à la nouvelle charte graphique. Et beaucoup de nouveau contenu a dû être créé.",
