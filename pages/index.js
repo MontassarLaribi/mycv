@@ -103,7 +103,10 @@ const Home = ({ t }) => {
         <meta property="og:url" content={`https://montassarlaribi.com`} />
         <link rel="canonical" href="https://montassarlaribi.com/fr" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/montassar_laribi.png" />
+        <meta
+          property="og:image"
+          content="https://montassarlaribi.com/images/montassar_laribi.png"
+        />
         <meta
           property="og:image:url"
           content="https://montassarlaribi.com/images/montassar_laribi.png"

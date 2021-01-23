@@ -28,7 +28,8 @@ const Certificats = ({ t }) => {
           onClick={() =>
             dispatch(
               show({
-                image: "/images/PNL_Montassar_Laribi.png",
+                image:
+                  "https://montassarlaribi.com/images/PNL_Montassar_Laribi.png",
                 caption: t("certificats.items.0"),
               })
             )
@@ -38,7 +39,7 @@ const Certificats = ({ t }) => {
           <CenterImageDiv id="scroll-pnl">
             <CenterImage
               alt="Certificat PNL Montassar Laribi"
-              src="/images/PNL_Montassar_Laribi.png"
+              src="https://montassarlaribi.com/images/PNL_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
           </CenterImageDiv>
@@ -48,7 +49,8 @@ const Certificats = ({ t }) => {
           onClick={() =>
             dispatch(
               show({
-                image: "/images/Soft_Skills_Montassar_Laribi.png",
+                image:
+                  "https://montassarlaribi.com/images/Soft_Skills_Montassar_Laribi.png",
                 caption: t("certificats.items.1"),
               })
             )
@@ -58,7 +60,7 @@ const Certificats = ({ t }) => {
           <CenterImageDiv>
             <CenterImage
               alt="Certificat Soft Skills Montassar Laribi"
-              src="/images/Soft_Skills_Montassar_Laribi.png"
+              src="https://montassarlaribi.com/images/Soft_Skills_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
           </CenterImageDiv>
@@ -70,7 +72,8 @@ const Certificats = ({ t }) => {
           onClick={() =>
             dispatch(
               show({
-                image: "/images/TOT_Montassar_Laribi.png",
+                image:
+                  "https://montassarlaribi.com/images/TOT_Montassar_Laribi.png",
                 caption: t("certificats.items.2"),
               })
             )
@@ -80,7 +83,7 @@ const Certificats = ({ t }) => {
           <CenterImageDiv>
             <CenterImage
               alt="Certificat TOT Montassar Laribi"
-              src="/images/TOT_Montassar_Laribi.png"
+              src="https://montassarlaribi.com/images/TOT_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
           </CenterImageDiv>
@@ -90,7 +93,8 @@ const Certificats = ({ t }) => {
           onClick={() =>
             dispatch(
               show({
-                image: "/images/MOOC_Montassar_Laribi.png",
+                image:
+                  "https://montassarlaribi.com/images/MOOC_Montassar_Laribi.png",
                 caption: t("certificats.items.3"),
               })
             )
@@ -100,7 +104,7 @@ const Certificats = ({ t }) => {
           <CenterImageDiv>
             <CenterImage
               alt="Certificat MOOC Montassar Laribi"
-              src="/images/MOOC_Montassar_Laribi.png"
+              src="https://montassarlaribi.com/images/MOOC_Montassar_Laribi.png"
               layout="fill"
             ></CenterImage>
           </CenterImageDiv>

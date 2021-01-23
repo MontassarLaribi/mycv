@@ -51,12 +51,12 @@ const EspritWebsite = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/pagespeed1.png",
+                    image: "https://montassarlaribi.com/images/pagespeed1.png",
                     caption: t("before"),
                   })
                 )
               }
-              src="/images/pagespeed1.png"
+              src="https://montassarlaribi.com/images/pagespeed1.png"
               alt="ESPRIT Website Before"
               layout="fill"
             ></CenterImage>
@@ -70,12 +70,12 @@ const EspritWebsite = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/pagespeed2.png",
+                    image: "https://montassarlaribi.com/images/pagespeed2.png",
                     caption: t("after"),
                   })
                 )
               }
-              src="/images/pagespeed2.png"
+              src="https://montassarlaribi.com/images/pagespeed2.png"
               alt="ESPRIT Website After"
               layout="fill"
             ></CenterImage>
@@ -90,12 +90,12 @@ const EspritWebsite = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/pagespeed5.png",
+                    image: "https://montassarlaribi.com/images/pagespeed5.png",
                     caption: t("best"),
                   })
                 )
               }
-              src="/images/pagespeed5.png"
+              src="https://montassarlaribi.com/images/pagespeed5.png"
               alt="ESPRIT Website 100% score"
               layout="fill"
             ></CenterImage>
@@ -114,7 +114,7 @@ const EspritWebsite = ({ t }) => {
           >
             <ArticleImageWrapper>
               <ArticleImage
-                src="/images/medium.png"
+                src="https://montassarlaribi.com/images/medium.png"
                 alt="medium logo"
                 layout="fill"
               ></ArticleImage>

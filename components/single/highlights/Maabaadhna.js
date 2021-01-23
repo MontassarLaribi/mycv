@@ -36,7 +36,7 @@ const Maabaadhna = ({ t }) => {
             <ArticleImageWrapper>
               <ArticleImage
                 noinvert={"true"}
-                src="/images/maabaadhna.png"
+                src="https://montassarlaribi.com/images/maabaadhna.png"
                 alt="Maabaadhna logo"
                 layout="fill"
               ></ArticleImage>
@@ -60,7 +60,7 @@ const Maabaadhna = ({ t }) => {
             <CenterImageDiv>
               <CenterImage
                 invert={"true"}
-                src="/images/github.png"
+                src="https://montassarlaribi.com/images/github.png"
                 alt="GitHub Logo"
                 layout="fill"
               ></CenterImage>

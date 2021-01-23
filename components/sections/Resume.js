@@ -26,7 +26,7 @@ const Resume = ({ t }) => {
             sizes="100vw"
             layout="fill"
             alt="Montassar Laribi"
-            src="/images/montassar_laribi.png"
+            src="https://montassarlaribi.com/images/montassar_laribi.png"
           ></ProfileImage>
         </ProfileImageDiv>
       </ProfileImageWrapper>

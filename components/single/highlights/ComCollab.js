@@ -39,12 +39,13 @@ const ComCollab = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/espritonlinepayment.png",
+                    image:
+                      "https://montassarlaribi.com/images/espritonlinepayment.png",
                     caption: t("highlights.comCollab.2"),
                   })
                 )
               }
-              src="/images/espritonlinepayment.png"
+              src="https://montassarlaribi.com/images/espritonlinepayment.png"
               alt="ESPRIT Online Payment Banner"
               layout="fill"
             ></CenterImage>
@@ -58,12 +59,13 @@ const ComCollab = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/espritrecrute.png",
+                    image:
+                      "https://montassarlaribi.com/images/espritrecrute.png",
                     caption: t("highlights.comCollab.3"),
                   })
                 )
               }
-              src="/images/espritrecrute.png"
+              src="https://montassarlaribi.com/images/espritrecrute.png"
               alt="ESPRIT Recrute Banner"
               layout="fill"
             ></CenterImage>
@@ -83,7 +85,7 @@ const ComCollab = ({ t }) => {
             <ArticleImageWrapper>
               <ArticleImage
                 noinvert={"true"}
-                src="/images/espritrecrute.png"
+                src="https://montassarlaribi.com/images/espritrecrute.png"
                 alt="Esprit recrute poster"
                 layout="fill"
               ></ArticleImage>
@@ -106,7 +108,7 @@ const ComCollab = ({ t }) => {
             <ArticleImageWrapper>
               <ArticleImage
                 noinvert={"true"}
-                src="/images/espritonlinepayment.png"
+                src="https://montassarlaribi.com/images/espritonlinepayment.png"
                 alt="ESPRIT online poster"
                 layout="fill"
               ></ArticleImage>

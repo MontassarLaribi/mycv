@@ -44,7 +44,7 @@ const Website = ({ t }) => {
           >
             <CenterImageDiv>
               <CenterImage
-                src="/images/github.png"
+                src="https://montassarlaribi.com/images/github.png"
                 alt="GitHub Logo"
                 layout="fill"
               ></CenterImage>

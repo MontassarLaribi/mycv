@@ -22,7 +22,7 @@ const Graphic = ({ t }) => {
           <CenterImageDiv>
             <CenterImage
               alt="Photoshop logo"
-              src="/images/photoshop.png"
+              src="https://montassarlaribi.com/images/photoshop.png"
               layout="fill"
             ></CenterImage>
           </CenterImageDiv>
@@ -31,7 +31,7 @@ const Graphic = ({ t }) => {
           <CenterImageDiv>
             <CenterImage
               alt="Illustrator logo"
-              src="/images/Illustrator.png"
+              src="https://montassarlaribi.com/images/Illustrator.png"
               layout="fill"
             ></CenterImage>
           </CenterImageDiv>

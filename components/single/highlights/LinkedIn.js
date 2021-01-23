@@ -33,12 +33,13 @@ const LinkedIn = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/linkedInReact.png",
+                    image:
+                      "https://montassarlaribi.com/images/linkedInReact.png",
                     caption: t("highlights.linkedIn.1"),
                   })
                 )
               }
-              src="/images/linkedInReact.png"
+              src="https://montassarlaribi.com/images/linkedInReact.png"
               alt="React LinkedIn Badge"
               layout="fill"
             ></CenterImage>
@@ -52,12 +53,13 @@ const LinkedIn = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/linkedInJavascript.png",
+                    image:
+                      "https://montassarlaribi.com/images/linkedInJavascript.png",
                     caption: t("highlights.linkedIn.2"),
                   })
                 )
               }
-              src="/images/linkedInJavascript.png"
+              src="https://montassarlaribi.com/images/linkedInJavascript.png"
               alt="Javascript LinkedIn Badge"
               layout="fill"
             ></CenterImage>
@@ -72,12 +74,13 @@ const LinkedIn = ({ t }) => {
               onClick={() =>
                 dispatch(
                   show({
-                    image: "/images/linkedInNodeJS.png",
+                    image:
+                      "https://montassarlaribi.com/images/linkedInNodeJS.png",
                     caption: t("highlights.linkedIn.3"),
                   })
                 )
               }
-              src="/images/linkedInNodeJS.png"
+              src="https://montassarlaribi.com/images/linkedInNodeJS.png"
               alt="NodeJS LinkedIn Badge"
               layout="fill"
             ></CenterImage>
