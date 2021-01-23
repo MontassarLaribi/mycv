@@ -66,7 +66,9 @@ describe(
           'document.getElementById("modal-img").getAttribute("src")'
         );
         expect(modal).toBeDefined();
-        expect(img).toEqual("/images/PNL_Montassar_Laribi.png");
+        expect(img).toEqual(
+          "https://montassarlaribi.com/images/PNL_Montassar_Laribi.png"
+        );
       } catch (error) {
         console.error(error);
       }
