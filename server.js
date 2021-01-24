@@ -1,7 +1,8 @@
 const next = require("next");
 const express = require("express");
 const http = require("http");
-const https = require("https");
+const compression = require("compression");
+const spdy = require("spdy");
 const fs = require("fs");
 
 const ports = {
@@ -14,6 +15,16 @@ const handle = app.getRequestHandler();
 const server = express();
 const httpsApp = express();
 
+const shouldCompress = (req, res) => {
+  // don't compress responses asking explicitly not
+  if (req.headers["x-no-compression"]) {
+    return false;
+  }
+
+  // use compression filter function
+  return compression.filter(req, res);
+};
+
 const options = {
   key: fs.readFileSync("./cert/privkey1.pem"),
   cert: fs.readFileSync("./cert/cert1.pem"),
@@ -21,6 +32,8 @@ const options = {
 };
 
 app.prepare().then(() => {
+  httpsApp.use(compression({ filter: shouldCompress }));
+
   httpsApp.get("*", (req, res) => handle(req, res));
 
   server.get("*", (req, res) => {
@@ -30,12 +43,10 @@ app.prepare().then(() => {
     res.end();
   });
 
-  https
-    .createServer(options, httpsApp)
-    .listen(ports.https, "0.0.0.0", (err) => {
-      if (err) throw err;
-      console.log(`> HTTPS Ready on https://localhost:${ports.https}`);
-    });
+  spdy.createServer(options, httpsApp).listen(ports.https, "0.0.0.0", (err) => {
+    if (err) throw err;
+    console.log(`> HTTPS Ready on https://localhost:${ports.https}`);
+  });
 
   http.createServer(server).listen(ports.http, "0.0.0.0", (err) => {
     if (err) throw err;
