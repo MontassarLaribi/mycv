@@ -22,19 +22,19 @@ node {
             sh 'docker -v'
             sh 'printenv'
         }
-        stage('Build Docker test') {
-            dir("mycv"){
-            sh 'docker build -t cv-test -f dockerfile.test --no-cache .'
-            }
-        }
-        stage('Docker test') {
-            sh 'docker run --rm -d -p 3000:3000 cv-test'
-            sh "docker exec \$(docker ps|grep cv-test|cut -d' ' -f1) npm run test"
-        }
-        stage('Clean Docker test') {
-            sh "docker stop \$(docker ps|grep cv-test|cut -d' ' -f1)"
-            sh 'docker rmi cv-test'
-        }
+        // stage('Build Docker test') {
+        //     dir("mycv"){
+        //     sh 'docker build -t cv-test -f dockerfile.test --no-cache .'
+        //     }
+        // }
+        // stage('Docker test') {
+        //     sh 'docker run --rm -d -p 3000:3000 cv-test'
+        //     sh "docker exec \$(docker ps|grep cv-test|cut -d' ' -f1) npm run test"
+        // }
+        // stage('Clean Docker test') {
+        //     sh "docker stop \$(docker ps|grep cv-test|cut -d' ' -f1)"
+        //     sh 'docker rmi cv-test'
+        // }
         stage('Get certificats') {
             dir("mycv"){
                 sh 'mkdir -p cert'
