@@ -3,6 +3,9 @@
 # base image
 FROM node:alpine
 
+RUN apt-get update \
+    && apt-get install certbot
+
 # create & set working directory
 RUN mkdir -p /mycv
 
