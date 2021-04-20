@@ -2,6 +2,7 @@
   "pageTitle": "Montassar Laribi",
   "biography": "Biographie",
   "aboutMe": "A propos de moi",
+  "cv": "cv_montassar_laribi.pdf",
   "myNameIs": "Je m'appelle",
   "name": "Montassar Laribi",
   "Im": "et je suis un ",
@@ -49,16 +50,16 @@
     "title": "Experience",
     "items": [
       {
-        "period": "Janvier 2020 - Présent",
-        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
-        "title": "Professeur Universitaire, Département WEB",
-        "description": "J'enseigne à ESPRIT dans le département web où je coach et encadre des équipes d'ingénieurs dans leurs projets les plus importants. J'enseigne également l'SOA (Service Oriented Architecture), HTML / CSS / JavaScript, NodeJS et ReactJS"
-      },
-      {
         "period": "Juillet 2019 - Présent",
         "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
         "title": "Developpeur Web Full-Stack",
         "description": "Cela a commencé comme mon stage de fin d'études obligatoire puis j'ai été recruté en tant que développeur et professeur à l'université. Mon premier projet a été le site Web de l'université www.esprit.tn réalisé avec React et NestJS."
+      },
+      {
+        "period": "Janvier 2020 - Présent",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "Professeur Universitaire, Département WEB",
+        "description": "J'enseigne à ESPRIT dans le département web où je coach et encadre des équipes d'ingénieurs dans leurs projets les plus importants. J'enseigne également l'SOA (Service Oriented Architecture), HTML / CSS / JavaScript, NodeJS et ReactJS"
       },
       {
         "period": "Septembre 2019 - Février 2020",
@@ -108,7 +109,7 @@
       { "name": "Français", "level": "Courant" },
       { "name": "Anglais", "level": "Courant" },
       { "name": "Japonais", "level": "Basique" },
-      { "name": "Arabe", "level": "Basique" },
+      { "name": "Arabe", "level": "Courant" },
       { "name": "Tunisien", "level": "Native" }
     ]
   },

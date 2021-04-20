@@ -2,6 +2,7 @@
   "pageTitle": "Montassar Laribi",
   "biography": "Biography",
   "aboutMe": "About me",
+  "cv": "cv_montassar_laribi_english.pdf",
   "myNameIs": "My name is",
   "name": "Montassar Laribi",
   "Im": "and I'm a ",
@@ -49,16 +50,16 @@
     "title": "Experience",
     "items": [
       {
-        "period": "January 2020 - Now",
-        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
-        "title": "University Professor, Web department",
-        "description": "Teaching at ESPRIT in the web department where I coach and manage team of engineers in their most important projects. I also teach SOA (Service Oriented Architecture), HTML/CSS/JavaScript, NodeJS and ReactJS"
-      },
-      {
         "period": "July 2019 - Now",
         "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
         "title": "Full-Stack Web Developer",
         "description": "It started as my mandatory graduation internship then I got recruted as a developer and a professor in the university. My first project was the university's website www.esprit.tn made with React and NestJS."
+      },
+      {
+        "period": "January 2020 - Now",
+        "school": "Ecole Sup. Privée de l'Ingénieurie et de Technologies ESPRIT",
+        "title": "University Professor, Web department",
+        "description": "Teaching at ESPRIT in the web department where I coach and manage team of engineers in their most important projects. I also teach SOA (Service Oriented Architecture), HTML/CSS/JavaScript, NodeJS and ReactJS"
       },
       {
         "period": "September 2019 - February 2020",
@@ -108,7 +109,7 @@
       { "name": "French", "level": "Fluent" },
       { "name": "English", "level": "Fluent" },
       { "name": "Japanese", "level": "Basic" },
-      { "name": "Arabic", "level": "Basic" },
+      { "name": "Arabic", "level": "Fluent" },
       { "name": "Tunisian", "level": "Native" }
     ]
   },
