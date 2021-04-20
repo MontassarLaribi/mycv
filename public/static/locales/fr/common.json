@@ -2,6 +2,7 @@
   "pageTitle": "Montassar Laribi",
   "biography": "Biographie",
   "aboutMe": "A propos de moi",
+  "cv": "cv_montassar_laribi.pdf",
   "myNameIs": "Je m'appelle",
   "name": "Montassar Laribi",
   "Im": "et je suis un ",
@@ -108,7 +109,7 @@
       { "name": "Français", "level": "Courant" },
       { "name": "Anglais", "level": "Courant" },
       { "name": "Japonais", "level": "Basique" },
-      { "name": "Arabe", "level": "Basique" },
+      { "name": "Arabe", "level": "Courant" },
       { "name": "Tunisien", "level": "Native" }
     ]
   },

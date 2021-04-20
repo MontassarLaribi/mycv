@@ -45,7 +45,7 @@ const Resume = ({ t }) => {
           </li>
         </FlipText>
       </FlipWrapper>
-      <DownloadButton onClick={() => window.open("/cv_montassar_laribi.pdf")}>
+      <DownloadButton onClick={() => window.open("/" + t("cv"))}>
         {t("downloadCV")}
       </DownloadButton>
       <ResumeList>
@@ -84,7 +84,10 @@ const Resume = ({ t }) => {
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-brand-whatsapp"></IcoFontIcon>{" "}
-          <BoldText>Whatsapp:</BoldText> +21627151438
+          <BoldText>Whatsapp:</BoldText>{" "}
+          <a target="_blank" rel="noopener noreferrer" href="tel:+21627151438">
+            +21627151438
+          </a>
         </ResumeListItem>
         <ResumeListItem>
           <IcoFontIcon className="icofont-ui-calendar"></IcoFontIcon>{" "}
