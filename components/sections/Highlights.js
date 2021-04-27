@@ -1,7 +1,6 @@
 import { withTranslation } from "../../i18n";
 import ComCollab from "../single/highlights/ComCollab";
 import EspritWebsite from "../single/highlights/EspritWebsite";
-import LinkedIn from "../single/highlights/LinkedIn";
 import Maabaadhna from "../single/highlights/Maabaadhna";
 import Placini from "../single/highlights/Placini";
 import Teaching from "../single/highlights/Teaching";
@@ -23,7 +22,6 @@ const Highlights = ({ t }) => {
       <BodySectionFlex>
         <BodySectionColumn full={"true"}>
           <Website></Website>
-          <LinkedIn></LinkedIn>
           <EspritWebsite></EspritWebsite>
           <Teaching></Teaching>
           <Maabaadhna></Maabaadhna>
