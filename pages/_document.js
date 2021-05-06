@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
 
   render() {
     const { lng } = this.props;
-    const GA_ID = process.env.GOOGLE_ANALYTICS_ID;
+    const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
     return (
       <Html lang={lng}>
         <Head>
