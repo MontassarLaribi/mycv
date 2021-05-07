@@ -27,7 +27,7 @@ const ComCollab = ({ t }) => {
     <>
       <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
-          <BodyTitle>{t("highlights.items.6")}</BodyTitle>
+          <BodyTitle>{t("highlights.items.5")}</BodyTitle>
         </TitleContainerPrimary>
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.comCollab.0")}</Paragraph>

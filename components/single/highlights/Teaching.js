@@ -14,7 +14,7 @@ const Teaching = ({ t }) => {
     <>
       <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
-          <BodyTitle>{t("highlights.items.3")}</BodyTitle>
+          <BodyTitle>{t("highlights.items.2")}</BodyTitle>
         </TitleContainerPrimary>
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.teaching.0")}</Paragraph>
