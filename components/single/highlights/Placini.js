@@ -20,7 +20,7 @@ const Placini = ({ t }) => {
     <>
       <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
-          <BodyTitle>{t("highlights.items.5")}</BodyTitle>
+          <BodyTitle>{t("highlights.items.4")}</BodyTitle>
         </TitleContainerPrimary>
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.placini.0")}</Paragraph>

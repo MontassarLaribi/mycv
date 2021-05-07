@@ -21,7 +21,7 @@ const Maabaadhna = ({ t }) => {
     <>
       <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
-          <BodyTitle>{t("highlights.items.4")}</BodyTitle>
+          <BodyTitle>{t("highlights.items.3")}</BodyTitle>
         </TitleContainerPrimary>
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.maabaadhna.0")}</Paragraph>

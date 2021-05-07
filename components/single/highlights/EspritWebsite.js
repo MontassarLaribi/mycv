@@ -29,7 +29,7 @@ const EspritWebsite = ({ t }) => {
     <>
       <BodyTitlesContainer className="section-title">
         <TitleContainerPrimary>
-          <BodyTitle>{t("highlights.items.2")}</BodyTitle>
+          <BodyTitle>{t("highlights.items.1")}</BodyTitle>
         </TitleContainerPrimary>
       </BodyTitlesContainer>
       <Paragraph>{t("highlights.espritWebsite.0")}</Paragraph>
